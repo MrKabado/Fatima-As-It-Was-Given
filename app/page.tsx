@@ -10,10 +10,23 @@ export default function Home() {
   const [showPage4, setShowPage4] = useState<boolean>(false);
   const [showPage5, setShowPage5] = useState<boolean>(false);
   const [showPage6, setShowPage6] = useState<boolean>(false);
+  const [homeActive, setHomeActive] = useState<boolean>(false);
+  const [page2Active, setPage2Active] = useState<boolean>(false);
+  const [page3Active, setPage3Active] = useState<boolean>(false);
+  const [page4Active, setPage4Active] = useState<boolean>(false);
+  const [page5Active, setPage5Active] = useState<boolean>(false);
+  const [page6Active, setPage6Active] = useState<boolean>(false);
 
   return (
     <div className="flex flex-col gap-15 justify-between">
       {<Header
+        isHomeActive={homeActive}
+        isPage2Active={page2Active}
+        isPage3Active={page3Active}
+        isPage4Active={page4Active}
+        isPage5Active={page5Active}
+        isPage6Active={page6Active}
+
         onHomeClick={() => {
           setShowHome(true);
           setShowPage2(false);
@@ -21,8 +34,14 @@ export default function Home() {
           setShowPage4(false);
           setShowPage5(false);
           setShowPage6(false);
-        }}
 
+          setHomeActive(true);
+          setPage2Active(false);
+          setPage3Active(false);
+          setPage4Active(false);
+          setPage5Active(false);
+          setPage6Active(false);
+        }}
         onPage2Click={() => {
           setShowHome(false);
           setShowPage2(true);
@@ -30,6 +49,13 @@ export default function Home() {
           setShowPage4(false);
           setShowPage5(false);
           setShowPage6(false);
+          
+          setHomeActive(false);
+          setPage2Active(true);
+          setPage3Active(false);
+          setPage4Active(false);
+          setPage5Active(false);
+          setPage6Active(false);
         }}
         onPage3Click={() => {
           setShowHome(false);
@@ -38,6 +64,13 @@ export default function Home() {
           setShowPage4(false);
           setShowPage5(false);
           setShowPage6(false);
+
+          setHomeActive(false);
+          setPage2Active(false);
+          setPage3Active(true);
+          setPage4Active(false);
+          setPage5Active(false);
+          setPage6Active(false);
         }}
         onPage4Click={() => {
           setShowHome(false);
@@ -46,6 +79,13 @@ export default function Home() {
           setShowPage4(true);
           setShowPage5(false);
           setShowPage6(false);
+
+          setHomeActive(false);
+          setPage2Active(false);
+          setPage3Active(false);
+          setPage4Active(true);
+          setPage5Active(false);
+          setPage6Active(false);
         }}
         onPage5Click={() => {
           setShowHome(false);
@@ -54,6 +94,13 @@ export default function Home() {
           setShowPage4(false);
           setShowPage5(true);
           setShowPage6(false);
+
+          setHomeActive(false);
+          setPage2Active(false);
+          setPage3Active(false);
+          setPage4Active(false);
+          setPage5Active(true);
+          setPage6Active(false);
         }}
         onPage6Click={() => {
           setShowHome(false);
@@ -62,6 +109,13 @@ export default function Home() {
           setShowPage4(false);
           setShowPage5(false);
           setShowPage6(true);
+
+          setHomeActive(false);
+          setPage2Active(false);
+          setPage3Active(false);
+          setPage4Active(false);
+          setPage5Active(false);
+          setPage6Active(true);
         }}
       />}
 
