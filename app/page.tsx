@@ -1,15 +1,73 @@
 "use client";
+import { useState } from "react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export default function Home() {
+  const [showHome, setShowHome] = useState<boolean>(true);
+  const [showPage2, setShowPage2] = useState<boolean>(false);
+  const [showPage3, setShowPage3] = useState<boolean>(false);
+  const [showPage4, setShowPage4] = useState<boolean>(false);
+  const [showPage5, setShowPage5] = useState<boolean>(false);
+  const [showPage6, setShowPage6] = useState<boolean>(false);
+
   return (
     <div className="flex flex-col gap-15 justify-between">
-      {<Header />}
+      {<Header
+        onHomeClick={() => {
+          setShowHome(true);
+          setShowPage2(false);
+          setShowPage3(false);
+          setShowPage4(false);
+          setShowPage5(false);
+          setShowPage6(false);
+        }}
+
+        onPage2Click={() => {
+          setShowHome(false);
+          setShowPage2(true);
+          setShowPage3(false);
+          setShowPage4(false);
+          setShowPage5(false);
+          setShowPage6(false);
+        }}
+        onPage3Click={() => {
+          setShowHome(false);
+          setShowPage2(false);
+          setShowPage3(true);
+          setShowPage4(false);
+          setShowPage5(false);
+          setShowPage6(false);
+        }}
+        onPage4Click={() => {
+          setShowHome(false);
+          setShowPage2(false);
+          setShowPage3(false);
+          setShowPage4(true);
+          setShowPage5(false);
+          setShowPage6(false);
+        }}
+        onPage5Click={() => {
+          setShowHome(false);
+          setShowPage2(false);
+          setShowPage3(false);
+          setShowPage4(false);
+          setShowPage5(true);
+          setShowPage6(false);
+        }}
+        onPage6Click={() => {
+          setShowHome(false);
+          setShowPage2(false);
+          setShowPage3(false);
+          setShowPage4(false);
+          setShowPage5(false);
+          setShowPage6(true);
+        }}
+      />}
 
       <main>
         {/* HOME */}
-        <section className="flex flex-col gap-10 hidden">
+        <section className={showHome ? "flex flex-col gap-10" : "hidden"}>
           <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
             <p>
               Much of what is said today about Fatima is filtered through
@@ -60,7 +118,7 @@ export default function Home() {
         </section>
 
         {/* THE MESSAGE OF FATIMA */}
-        <section className="flex flex-col gap-10 hidden">
+        <section className={showPage2 ? "flex flex-col gap-10" : "hidden"}>
           <h2 className="text-3xl">The Message of Fatima</h2>
 
           <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
@@ -102,7 +160,7 @@ export default function Home() {
         </section>
 
         {/* THE BOOK */}
-        <section className="flex flex-col gap-10 hidden">
+        <section className={showPage3 ? "flex flex-col gap-10" : "hidden"}>
           <div className="flex flex-col gap-5">
             <h2 className="text-3xl">
               The Book: <em>The True Story of Fatima</em>
@@ -130,7 +188,7 @@ export default function Home() {
         </section>
 
         {/* LUCIA'S MEMOIRS */}
-        <section className="flex flex-col gap-10 hidden">
+        <section className={showPage4 ? "flex flex-col gap-10" : "hidden"}>
           <h2 className="text-3xl">Lucia's Memoirs</h2>
 
           <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
@@ -163,7 +221,7 @@ export default function Home() {
         </section>
 
         {/* WITNESS & COMMENTARY SECTION */}
-        <section className="flex flex-col gap-10 hidden">
+        <section className={showPage5 ? "flex flex-col gap-10" : "hidden"}>
           <h2 className="text-3xl">Witness & Commentary</h2>
 
           <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
@@ -220,7 +278,7 @@ export default function Home() {
         </section>
 
         {/* ABOUT THIS SITE */}
-        <section className="flex flex-col gap-10 hidden">
+        <section className={showPage6 ? "flex flex-col gap-10" : "hidden"}>
           <h2 className="text-3xl">About This Site</h2>
 
           <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
