@@ -8,9 +8,9 @@ export default function Home() {
       {<Header />}
 
       <main>
-        {/* MAIN */}
-        <section className="flex flex-col gap-10">
-          <div className="p-10 bg-gray-200 border-l-5 border-gray-500 flex flex-col gap-5">
+        {/* HOME */}
+        <section className="flex flex-col gap-10 hidden">
+          <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
             <p>
               Much of what is said today about Fatima is filtered through
               reassurance, summaries, or later interpretation. This site exists
@@ -35,7 +35,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold">Key Sections Preview</h2>
             <ul className="text-md">
               <li>
-                <span className="text-2xl">-</span> The Message in Our Lady's
+                <span className="text-3xl">-</span> The Message in Our Lady's
                 Own Words
               </li>
               <li>
@@ -54,6 +54,196 @@ export default function Home() {
               </li>
               <li>
                 <span className="text-3xl">-</span> What Lucia Never Withdrew
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* THE MESSAGE OF FATIMA */}
+        <section className="flex flex-col gap-10 hidden">
+          <h2 className="text-3xl">The Message of Fatima</h2>
+
+          <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
+            <p>
+              Fatima does not need reinterpretation. It needs to be read. When
+              the original accounts are allowed to speak for themselves, a
+              coherent and demanding message emerges — one that centers on
+              reparation, obedience, and consecration as a remedy for real
+              historical evils.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl text-gray-400">
+              Sections Grounded in Original Sources
+            </h3>
+            <ul>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>What Our Lady asked for
+                — in her own words
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Why Russia mattered
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>The Immaculate Heart as
+                remedy, not metaphor
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Peace as a promised
+                fruit, not an abstraction
+              </li>
+            </ul>
+          </div>
+
+          <p>
+            <em>All points explicitly grounded in de Marchi and Lucia.</em>
+          </p>
+        </section>
+
+        {/* THE BOOK */}
+        <section className="flex flex-col gap-10 hidden">
+          <div className="flex flex-col gap-5">
+            <h2 className="text-3xl">
+              The Book: <em>The True Story of Fatima</em>
+            </h2>
+            <h3 className="text-gray-400 text-2xl">
+              by Fr. John de Marchi, S.J.
+            </h3>
+          </div>
+
+          <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
+            <p>
+              <strong>Statement of Fidelity:</strong> This work is reproduced
+              here in its entirety and without alteration, by written permission
+              of the rights holder. No passages have been edited, modernized,
+              abridged, or reinterpreted.
+            </p>
+
+            <p>
+              Fr. de Marchi wrote as a careful historian who interviewed the
+              seers, clergy, and witnesses while they were still living. His
+              account preserves the simplicity and gravity of what was given at
+              Fatima, before later accommodation set in.
+            </p>
+          </div>
+        </section>
+
+        {/* LUCIA'S MEMOIRS */}
+        <section className="flex flex-col gap-10 hidden">
+          <h2 className="text-3xl">Lucia's Memoirs</h2>
+
+          <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
+            <p>
+              Sister Lucia's Memoirs do not reinterpret Fatima; they confirm it.
+              Written under obedience, often with reluctance, they show
+              remarkable consistency — and a growing burden of silence.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl text-gray-400">Sections</h3>
+            <ul>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Lucia's obedience
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>The constancy of the
+                message
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Silence and restraint
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>What Lucia never
+                withdrew
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* WITNESS & COMMENTARY SECTION */}
+        <section className="flex flex-col gap-10 hidden">
+          <h2 className="text-3xl">Witness & Commentary</h2>
+
+          <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
+            <p>
+              <strong>Tone:</strong> Quiet, restrained, grounded.
+            </p>
+
+            <p>
+              <strong>Intro:</strong> The reflections offered here do not add to
+              Fatima. They arise from living with it over many years, and from
+              watching its central requests remain unresolved.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl text-gray-400">Content</h3>
+            <ul>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Short essays
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Clarifications
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Historical notes
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Personal reflections
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-3xl text-gray-400">
+              Why This Approach Works (And Protects You)
+            </h3>
+            <ul>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>You are not rewriting
+                Fatima — you are placing the original testimony back in view.
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Fr. de Marchi + Lucia's
+                Memoirs = unimpeachable sources. No speculation, no later
+                "interpretations," no smoothing.
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Your role becomes
+                transparent: Not author of a new message, not challenger of
+                doctrine, but a lay witness pointing to what was already given.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* ABOUT THIS SITE */}
+        <section className="flex flex-col gap-10 hidden">
+          <h2 className="text-3xl">About This Site</h2>
+
+          <div className="p-10 bg-gray-200 border-l-5 border-gray-400 flex flex-col gap-5">
+            <p>
+              This website exists to present the original, unaltered testimony of the Fatima apparitions using primary sources that have been faithfully preserved.
+            
+              <p><strong>Core Principle:</strong> Primary sources speak first. All commentary always points back to them.</p>
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl text-gray-400">Legal & Moral Safety</h3>
+            <p>Every page includes a footer notice to ensure proper attribution and respect for intellectual property rights.</p>
+          </div>
+
+          <div>
+            <h3 className="text-3xl text-gray-400">Sources Presented</h3>
+            <ul>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>The True Story of Fatima by Fr. John de Marchi, S.J. (full reproduction with permission)
+              </li>
+              <li className="flex items-center">
+                <span className="text-3xl mr-2">-</span>Memoirs of Sister Lucia (referenced and presented in context)
               </li>
             </ul>
           </div>
