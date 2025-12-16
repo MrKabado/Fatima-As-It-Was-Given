@@ -13,11 +13,11 @@ html {
 body {
   font-family: "Libre Baskerville", Georgia, "Times New Roman", serif;
   line-height: 1.7;
-  color:#2C3E50
+  color:#2C3E50;
+  padding: 0px 50px
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Crimson Text", "Libre Baskerville", Georgia, serif;
-  font-weight: 400;
   letter-spacing: 0.5px;
 }
