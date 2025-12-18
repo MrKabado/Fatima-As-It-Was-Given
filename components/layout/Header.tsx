@@ -15,7 +15,8 @@ export default function Header({ activePage, onNavigate }: HeaderProps) {
     { id: 4, title: "What Obedience Requires of Us Now" },
     { id: 5, title: "The True Story of Fatima" },
     { id: 6, title: "Lucia's Memoirs" },
-    { id: 7, title: "Contact" },
+    { id: 7, title: "Books" },
+    { id: 8, title: "Contact" },
   ];
 
   const getBorderColor = (pageId: number) => {
@@ -27,6 +28,7 @@ export default function Header({ activePage, onNavigate }: HeaderProps) {
       5: "#2C3E50",
       6: "#2C3E50",
       7: "#8B7355",
+      8: "#A52A2A",
     };
     return colors[pageId as keyof typeof colors] || "#2C3E50";
   };

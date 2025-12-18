@@ -78,6 +78,18 @@ Fatima does not promise safety in history. Fatima does promise that no soul need
 
 Our Lady at Fatima leaves no middle ground, either the remedy is taken seriously, or the consequences will follow.
 
+BOOKS
+The books listed on this site are those which I have found most helpful in understanding Fatima as it was given.
+
+The True Story of Fatima
+by Father John de Marchi, I.M.C,
+
+A detailed account of the apparitions at Fatima, based on extensive interviews and original documents.
+
+Lucias Final Interview in 1957
+by Fr. Augustin Fuentes, S.V.D.
+
+An interview with Lucia of Fatima in 1957, where she discusses the messages and visions.
 
 This work is shared freely in the hope that it may be read with sincerity, and passed on with care.
 
