@@ -1,102 +1,62 @@
 "use client";
 
 type HeaderProps = {
-  onHomeClick: () => void;
-  onPage2Click: () => void;
-  onPage3Click: () => void;
-  onPage4Click: () => void;
-  onPage5Click: () => void;
-  onPage6Click: () => void;
-
-  isHomeActive: boolean;
-  isPage2Active: boolean;
-  isPage3Active: boolean;
-  isPage4Active: boolean;
-  isPage5Active: boolean;
-  isPage6Active: boolean;
+  activePage: number;
+  onNavigate: (pageNumber: number) => void;
 };
 
-const baseBtnClass =
-  "border border-gray-400 py-2 px-4 cursor-pointer hover:bg-gray-100 rounded-md text-md text-[#2C3E50]";
+const baseBtnClass = "py-2 px-3 md:px-4 cursor-pointer hover:bg-gray-50 text-sm md:text-md text-[#2C3E50] transition-colors duration-200 font-serif border-b-2 border-transparent";
 
-export default function Header({
-  onHomeClick,
-  onPage2Click,
-  onPage3Click,
-  onPage4Click,
-  onPage5Click,
-  onPage6Click,
-  isHomeActive,
-  isPage2Active,
-  isPage3Active,
-  isPage4Active,
-  isPage5Active,
-  isPage6Active,
-}: HeaderProps) {
+export default function Header({ activePage, onNavigate }: HeaderProps) {
+  const pages = [
+    { id: 1, title: "The Message of Fatima" },
+    { id: 2, title: '"Too Awful for Mankind"' },
+    { id: 3, title: "The Immaculate Heart: The Remedy" },
+    { id: 4, title: "What Obedience Requires of Us Now" },
+    { id: 5, title: "The True Story of Fatima" },
+    { id: 6, title: "Lucia's Memoirs" },
+    { id: 7, title: "Contact" },
+  ];
+
+  const getBorderColor = (pageId: number) => {
+    const colors = {
+      1: "#8B7355",
+      2: "#A52A2A",
+      3: "#228B22",
+      4: "#1E90FF",
+      5: "#2C3E50",
+      6: "#2C3E50",
+      7: "#8B7355",
+    };
+    return colors[pageId as keyof typeof colors] || "#2C3E50";
+  };
+
   return (
-    <header className="text-center flex flex-col gap-8">
-      <div className="px-5 py-10 border-dotted border-b-2 border-gray-300">
-        <h1 className="text-5xl text-[#2C3E50]">Fatima, As It Was Given</h1>
-        <p className="italic text-md mt-5 text-gray-500">
-          The original testimony of Fatima, faithfully preserved — and quietly
-          set before our time
+    <header className="text-center flex flex-col gap-4 md:gap-8 bg-white shadow-sm">
+      <div className="px-4 py-6 md:px-5 md:py-10 border-b border-gray-200">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl text-[#2C3E50] font-serif font-bold">
+          FATIMA
+        </h1>
+        <p className="text-sm md:text-md mt-3 md:mt-5 text-gray-600 font-serif">
+          The original testimony, faithfully preserved
         </p>
       </div>
 
-      <nav className="border-t-2 border-b-2 border-gray-300 flex justify-center gap-4 py-4">
-        <button
-          onClick={onHomeClick}
-          className={`${baseBtnClass} ${
-            isHomeActive ? "font-bold bg-gray-100" : ""
-          }`}
-        >
-          Home
-        </button>
-
-        <button
-          onClick={onPage2Click}
-          className={`${baseBtnClass} ${
-            isPage2Active ? "font-bold bg-gray-100" : ""
-          }`}
-        >
-          The Message of Fatima
-        </button>
-
-        <button
-          onClick={onPage3Click}
-          className={`${baseBtnClass} ${
-            isPage3Active ? "font-bold bg-gray-100" : ""
-          }`}
-        >
-          The Book
-        </button>
-
-        <button
-          onClick={onPage4Click}
-          className={`${baseBtnClass} ${
-            isPage4Active ? "font-bold bg-gray-100" : ""
-          }`}
-        >
-          Lucia&apos;s Memoirs
-        </button>
-
-        <button
-          onClick={onPage5Click}
-          className={`${baseBtnClass} ${
-            isPage5Active ? "font-bold bg-gray-100" : ""
-          }`}
-        >
-          Witness & Commentary
-        </button>
-
-        <button
-          onClick={onPage6Click}
-          className={`${baseBtnClass} ${
-            isPage6Active ? "font-bold bg-gray-100" : ""
-          }`}
-        >
-          About This Site
-        </button>
+      <nav className="border-t border-b border-gray-200">
+        <div className="flex flex-wrap justify-center gap-1 md:gap-2 py-3 md:py-4 px-2 max-w-6xl mx-auto">
+          {pages.map((page) => (
+            <button
+              key={page.id}
+              onClick={() => onNavigate(page.id)}
+              className={`${baseBtnClass} ${activePage === page.id ? "font-bold border-b-2" : ""}`}
+              style={{
+                borderBottomColor: activePage === page.id ? getBorderColor(page.id) : "transparent"
+              }}
+            >
+              {page.title}
+            </button>
+          ))}
+        </div>
       </nav>
     </header>
   );
