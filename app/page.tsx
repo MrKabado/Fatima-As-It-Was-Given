@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import TextToSpeech from "@/components/TextToSpeech/TextToSpeech";
+import { aboutSite } from "@/static/SpeechContent";
 
 export default function Home() {
   const [activePage, setActivePage] = useState<number>(1);
@@ -15,7 +17,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-gray-800 font-serif">
-      {/* Header/Navigation */}
       <header className="border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <h1 className="text-3xl md:text-4xl text-center font-bold text-gray-900 mb-2">
@@ -24,6 +25,10 @@ export default function Home() {
           <p className="text-lg text-center text-gray-600 italic">
             FATIMA: Not A Promise Of Peace, But A Remedy For Souls
           </p>
+        </div>
+
+        <div className="absolute bottom-10 right-15">
+            <TextToSpeech textContent={aboutSite}/>
         </div>
         
         <nav className="border-t border-gray-200">
