@@ -46,7 +46,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="absolute bottom-10 right-15">
+        <div className="fixed bottom-10 right-15 z-50">
             <TextToSpeech textContent={aboutSite}/>
         </div>
         
