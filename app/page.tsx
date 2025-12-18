@@ -211,7 +211,9 @@ export default function Home() {
             
             <div className="text-center">
               <a 
-                href="mailto:mickken@hotmail.com" 
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mailto:mickken@hotmail.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-lg text-gray-900 hover:underline"
               >
                 mickken@hotmail.com
