@@ -1,7 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Spinner } from "@/components/ui/spinner";
 
-export function ButtonSubmit({ props }: any) {
+interface ButtonSubmitProps {
+  props: {
+    submitted: boolean;
+    buttonType: "button" | "submit" | "reset" | undefined;
+    className?: string;
+    btnOnClick?: () => void;
+    btnText: string;
+    btnLoadingText: string;
+  };
+}
+    
+export function ButtonSubmit({ props }: ButtonSubmitProps) {
   const submitted = props.submitted;
   return (
     <div>
