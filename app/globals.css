@@ -43,3 +43,13 @@ a {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+
+#page2-h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#page2-p {
+  font-size: 20px;
+}

@@ -3,6 +3,8 @@ import { title } from "process";
 import { useState } from "react";
 import TextToSpeech from "@/components/TextToSpeech/TextToSpeech";
 import { aboutSite } from "@/static/SpeechContent";
+import { link } from "fs";
+import Link from "next/link";
 
 export default function Home() {
   const [activePage, setActivePage] = useState<number>(1);
@@ -30,7 +32,8 @@ export default function Home() {
       author: "Fr. Augustin Fuentes, S.V.D.",
       description:
         "An interview with Lucia of Fatima in 1957, where she discusses the messages and visions.",
-      link: "https://www.traditioninaction.org/HotTopics/g23ht_Interview.html",
+      // link: "https://www.traditioninaction.org/HotTopics/g23ht_Interview.html",
+      link: "/pages/LuciasFinalInterview",
     }
   ];
 
