@@ -7,7 +7,34 @@ import { authStore } from "@/stores/authStore";
 
 export default function AccessCode() {
   const [isLoading, setIsLoading] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(300); // 300 seconds = 5 minutes
+  const [isTimerActive, setIsTimerActive] = useState(false);
   const { requestAccessCode } = authStore();
+
+  // Format seconds to MM:SS
+  const formatTime = (seconds: number) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  // Calculate progress percentage for visual indicator
+  const progressPercentage = ((300 - timeLeft) / 300) * 100;
+
+  // Handle resend access code
+  const handleResend = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (!isTimerActive) {
+      // Reset timer and allow resend
+      setIsTimerActive(true);
+      setTimeLeft(300);
+      
+      // Here you would typically trigger the actual resend logic
+      console.log("Resending access code...");
+      // Add your API call to resend the code here
+      // Example: await resendAccessCodeAPI();
+    }
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -21,6 +48,12 @@ export default function AccessCode() {
       const accessCode = formData.get("accessCode") as string;
       console.log("Access Code Submitted:", accessCode);
       
+      // Start the timer when submitting
+      if (!isTimerActive) {
+        setIsTimerActive(true);
+        setTimeLeft(300);
+      }
+      
       const success = await requestAccessCode(accessCode);
       
       if (!success) {
@@ -31,6 +64,31 @@ export default function AccessCode() {
       setIsLoading(false);
     }
   };
+
+  // Timer countdown effect
+  useEffect(() => {
+    if (!isTimerActive || timeLeft <= 0) return;
+
+    const timerId = setInterval(() => {
+      setTimeLeft((prevTime) => {
+        if (prevTime <= 1) {
+          clearInterval(timerId);
+          setIsTimerActive(false);
+          return 0;
+        }
+        return prevTime - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timerId);
+  }, [isTimerActive, timeLeft]);
+
+  // Start timer when component mounts (if you want timer to start immediately)
+  useEffect(() => {
+    // Start the timer when the component loads
+    setIsTimerActive(true);
+    setTimeLeft(300);
+  }, []);
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
@@ -99,4 +157,3 @@ export default function AccessCode() {
     </div>
   );
 }
-
