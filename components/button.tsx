@@ -6,11 +6,11 @@ export function ButtonSubmit({ props }: any) {
   return (
     <div>
       {!submitted ? (
-        <Button type={props.buttonType} size="sm" className={`bg-indigo-600 hover:bg-indigo-700 text-white ${props.className}`} onClick={props.btnOnClick}>
+        <Button type={props.buttonType} size="lg" className={`bg-black hover:bg-white text-white hover:text-black hover:border ${props.className}`} onClick={props.btnOnClick}>
           {props.btnText}
         </Button>
       ):(
-        <Button type={props.buttonType} size="sm" disabled className={`bg-indigo-600 text-white ${props.className}`} onClick={props.btnOnClick}>
+        <Button type={props.buttonType} size="lg" disabled className={`bg-white text-black ${props.className}`} onClick={props.btnOnClick}>
           <Spinner className="mr-2 h-4 w-4 animate-spin" />
           {props.btnLoadingText}...
         </Button>
