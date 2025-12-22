@@ -1,0 +1,14 @@
+import Joi from "joi";
+import type { Request, Response, NextFunction } from "express";
+
+export const validateRequest = <T>(schema: Joi.ObjectSchema) => {
+    return (req: Request, res: Response, next: NextFunction) => {
+        const { error, value } = schema.validate(req.body);
+        if (error) {
+            return res.status(400).json({ error: error.details[0].message });
+        }
+
+        res.locals.validatedBody = value as T;
+        next();
+    };
+}
