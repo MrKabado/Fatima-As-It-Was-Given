@@ -132,7 +132,7 @@ export default function Home() {
               IT IS THE LOSS OF SOULS.
             </h2>
             <h3 className="text-xl font-bold text-center italic">
-              IT IS "TOO AWFUL FOR MANKIND"
+              IT IS &quot;TOO AWFUL FOR MANKIND&quot;
             </h3>
           </div>
         </section>
@@ -142,7 +142,7 @@ export default function Home() {
           className={`${activePage === 3 ? "block" : "hidden"} space-y-6`}
         >
           <p className="text-lg leading-relaxed">
-            At Fatima Jesus did not present His Mother's Immaculate Heart as a
+            At Fatima Jesus did not present His Mother&apos;s Immaculate Heart as a
             devotion, but as a devotion equal to our devotion to His Own Sacred
             Heart. Lucia repeatedly affirmed that Jesus wished to establish
             devotion to Her Immaculate Heart, as a means by which souls would be
@@ -155,8 +155,8 @@ export default function Home() {
           </p>
 
           <p className="text-lg leading-relaxed">
-            Lucia's story leads us to that final interview in 1957 with Father
-            Fuentes, in which she describes Our Lady's final words for us. The
+            Lucia&apos;s story leads us to that final interview in 1957 with Father
+            Fuentes, in which she describes Our Lady&apos;s final words for us. The
             final battle She is having with Satan, where we must actively choose
             Her side to be saved, or be lost to his by default.
           </p>
@@ -222,7 +222,7 @@ export default function Home() {
           <ul className="space-y-8">
             <li className="pb-6 border-b border-gray-100">
               <p className="text-lg leading-relaxed">
-                Lucia's credibility was firmly established in July 1917 when she
+                Lucia&apos;s credibility was firmly established in July 1917 when she
                 told people who had asked for the Lady to prove She was from
                 Heaven.
               </p>
@@ -248,7 +248,7 @@ export default function Home() {
             <li className="pb-6 border-b border-gray-100">
               <p className="text-lg leading-relaxed">
                 Jesus does not, and will not, punish me. Bad things can happen
-                to me because I am not "with Him". His love is always with me,
+                to me because I am not &quot;with Him&quot;. His love is always with me,
                 but sometimes my love is not with Him, that is when I am at
                 risk. He does not falter, I do.
               </p>
