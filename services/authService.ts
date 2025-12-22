@@ -1,7 +1,11 @@
 import { apiInstance } from "@/api/_base";
 
 export const requestAccessCode = async (accessCode: string) => {
-    const response = await apiInstance.post("/api/auth/access-code", { accessCode });
+    const response = await apiInstance.post("/api/auth/request-access", { access_code:accessCode }, {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
     return response.data;
 }
 
