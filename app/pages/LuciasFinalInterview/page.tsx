@@ -40,12 +40,12 @@ export default function LuciasFinalInterview() {
             Paul VI's visit to Fatima. This Sr. Lucy, square-faced, cheerful and
             robust - incredibly different from the oval faced, sad and pale Sr.
             Lucy who spoke to Fr. Fuentes - was seen more regularly starting in
-            1982, after John Paul II's visit to Fatima.
+            1982, after John Paul II's visit to Fatima. <span>[See our Two <a href="https://www.traditioninaction.org/HotTopics/g12htArt2_TwoSisterLucys.htm">Sister Lucys' analysis]</a></span>
             <br />
             <br />
             These are the authentic words of her 1957 conversation with Fr.
-            Fuentes, which came from the records of the official archivist of
-            Fatima, Fr. Joaquín María Alonso, CMF. Fr. Alonso spoke with Sr. Lucy
+            Fuentes, which came from the records of the <span><a href="https://www.traditioninaction.org/HotTopics/Snap/g23ht_Interview_1.jpg">official archivist of
+            Fatima</a></span>, Fr. Joaquín María Alonso, CMF. Fr. Alonso spoke with Sr. Lucy
             and publicly testified that her statements to Fr. Fuentes in 1957
             were genuine and true.
             <br />
@@ -99,7 +99,7 @@ export default function LuciasFinalInterview() {
               and then what will happen? It will be very sad for everyone, and
               far from a happy thing if the world does not pray and do penance
               before then. I cannot give more details, because it is still a
-              secret. By the will of the Blessed Virgin, only the Holy Father and
+              secret. <span><a href="https://www.traditioninaction.org/Questions/F039_Secret1960.html">By the will of the Blessed Virgin</a></span>, only the Holy Father and
               the Bishop of Fatima can know the secret. Both have chosen,
               however, not to open it in order not to be influenced by it.
               <br />
