@@ -18,3 +18,8 @@ export const checkAuthentication = async () => {
     const response = await apiInstance.get("/api/auth/check-auth");
     return response.data;
 }
+
+export const logout = async () => {
+    const response = await apiInstance.post("/api/auth/logout");
+    return response.data;
+}

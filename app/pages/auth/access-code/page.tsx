@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { ButtonSubmit } from "@/components/button";
 import { authStore } from "@/stores/authStore";
 
@@ -10,6 +11,7 @@ export default function AccessCode() {
   const [timeLeft, setTimeLeft] = useState(300); // 300 seconds = 5 minutes
   const [isTimerActive, setIsTimerActive] = useState(false);
   const { requestAccessCode } = authStore();
+  const router = useRouter();
 
   // Format seconds to MM:SS
   const formatTime = (seconds: number) => {
@@ -56,7 +58,10 @@ export default function AccessCode() {
       
       const success = await requestAccessCode(accessCode);
       
-      if (!success) {
+      if (success) {
+        // Redirect to home page on successful authentication
+        router.push("/");
+      } else {
         setIsLoading(false);
       }
     } catch (error) {
