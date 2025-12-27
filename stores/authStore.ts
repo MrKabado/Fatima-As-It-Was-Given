@@ -44,8 +44,8 @@ export const authStore = create<IAuthState>()((set) => ({
     checkAuthentication: async () => {
         try {
             const response = await checkAuthentication();
-            // response.access is the decoded token object, so check if it exists
             set({ isAutheticated: !!response.access });
+            console.log("Authentication check:", response);
             return !!response.access;
         } catch (error) {
             console.error("Error checking authentication:", error);

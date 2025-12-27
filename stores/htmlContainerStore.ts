@@ -45,12 +45,8 @@ export const htmlContainerStore = create<IHtmlContainerState>()((set, get) => ({
             }
             set({ isLoading: false });
             return false;
-        } catch (error: any) {
+        } catch (error) {
             console.error("Error creating container:", error);
-            set({ 
-                error: error.response?.data?.message || "Failed to create container",
-                isLoading: false 
-            });
             return false;
         }
     },
@@ -68,16 +64,13 @@ export const htmlContainerStore = create<IHtmlContainerState>()((set, get) => ({
                     },
                     isLoading: false
                 }));
+                console.log("Container fetched successfully from database:", response.data);
                 return response.data;
             }
             set({ isLoading: false });
             return null;
-        } catch (error: any) {
+        } catch (error) {
             console.error("Error getting container:", error);
-            set({ 
-                error: error.response?.data?.message || "Failed to get container",
-                isLoading: false 
-            });
             return null;
         }
     },
@@ -97,12 +90,8 @@ export const htmlContainerStore = create<IHtmlContainerState>()((set, get) => ({
             } else {
                 set({ isLoading: false });
             }
-        } catch (error: any) {
+        } catch (error) {
             console.error("Error getting all containers:", error);
-            set({ 
-                error: error.response?.data?.message || "Failed to get containers",
-                isLoading: false 
-            });
         }
     },
 
@@ -125,9 +114,9 @@ export const htmlContainerStore = create<IHtmlContainerState>()((set, get) => ({
             set({ isLoading: false });
             console.warn("Update response missing data:", identifier);
             return false;
-        } catch (error: any) {
+        } catch (error) {
             // If container doesn't exist (404), create it instead
-            if (error.response?.status === 404) {
+            if (error) {
                 console.log("Container not found, creating new one:", identifier);
                 try {
                     const createResponse = await createHtmlContainer({ identifier, content });
@@ -145,18 +134,13 @@ export const htmlContainerStore = create<IHtmlContainerState>()((set, get) => ({
                     set({ isLoading: false });
                     console.warn("Create response missing data:", identifier);
                     return false;
-                } catch (createError: any) {
+                } catch (createError) {
                     console.error("Error creating container:", createError);
-                    set({ 
-                        error: createError.response?.data?.message || "Failed to create container",
-                        isLoading: false 
-                    });
                     return false;
                 }
             } else {
                 console.error("Error updating container:", error);
                 set({ 
-                    error: error.response?.data?.message || "Failed to update container",
                     isLoading: false 
                 });
                 return false;
@@ -175,12 +159,8 @@ export const htmlContainerStore = create<IHtmlContainerState>()((set, get) => ({
                 return { containers: newContainers, isLoading: false };
             });
             return true;
-        } catch (error: any) {
+        } catch (error) {
             console.error("Error deleting container:", error);
-            set({ 
-                error: error.response?.data?.message || "Failed to delete container",
-                isLoading: false 
-            });
             return false;
         }
     },
