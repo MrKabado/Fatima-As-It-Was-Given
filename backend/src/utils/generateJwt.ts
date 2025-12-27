@@ -21,6 +21,6 @@ export const generateJwt = (payload: IPayload, res: Response) => {
         })
 
     } catch (error) {
-        
+        console.error("Error generating JWT:", error);
     }
 }

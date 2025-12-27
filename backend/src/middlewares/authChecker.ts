@@ -15,5 +15,6 @@ export const authChecker = (req: Request, res: Response, next: NextFunction) => 
 
     } catch (error) {
         console.error('auth checker failed: ', error);
+        return res.status(401).json({ error: "Access denied. Invalid or expired token." });
     }
 }
