@@ -4,6 +4,7 @@ import cors from 'cors'
 import morgan from 'morgan'
 import cookieParser from 'cookie-parser'
 import { errorHandler } from './middlewares/errorHandler'
+import 'dotenv/config'
 
 // @Routes Import
 import authRoute from './routes/admin/authRoute'
@@ -16,10 +17,8 @@ app.use(errorHandler)
 app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(cors({
-    origin: [
-        process.env.NODE_ENV === 'production' ? 
-        'https://fatima-as-it-was-given.vercel.app' :
-        'http://localhost:3000',
+    origin: [ 
+        'https://fatima-as-it-was-given.vercel.app'
     ],
     credentials: true,
 }))
