@@ -1,6 +1,7 @@
 import jwt from 'jsonwebtoken'
 import type { Response } from 'express'
 import { Types } from 'mongoose';
+import 'dotenv/config'
 
 interface IPayload {
     _id: Types.ObjectId;
