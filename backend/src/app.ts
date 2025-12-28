@@ -7,6 +7,7 @@ import { errorHandler } from './middlewares/errorHandler'
 
 // @Routes Import
 import authRoute from './routes/admin/authRoute'
+import htmlContainerRoute from './routes/admin/htmlContainerRoute'
 
 const app = express()
 
@@ -21,6 +22,7 @@ app.use(cors({
 
 // @Default Endpoint
 app.use('/api/auth', authRoute)
+app.use('/api/html-container', htmlContainerRoute)
 
 app.use('/test', (req: Request, res: Response) => {
     res.send('Test route is working!')
