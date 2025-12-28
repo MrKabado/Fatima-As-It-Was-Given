@@ -18,7 +18,7 @@ app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(cors({
     origin: [ 
-        'https://fatima-as-it-was-given.vercel.app', 'http://localhost:3000'
+        'https://fatima-as-it-was-given.vercel.app'
     ],
     credentials: true,
 }))
