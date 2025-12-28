@@ -59,11 +59,11 @@ export const authStore = create<IAuthState>()((set) => ({
         try {
             const response = await logout();
             set({ isAutheticated: false });
-            alert(response.message);
+            toast.success(response.message);
             return true
         } catch (error) {
             console.error("Error during logout:", error);
-            alert("Logout failed. Please try again.");
+            toast.error("Logout failed. Please try again.");
             return false;
         }
     },
