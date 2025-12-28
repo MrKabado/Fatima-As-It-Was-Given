@@ -16,7 +16,10 @@ app.use(errorHandler)
 app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(cors({
-    origin: ['http://localhost:3000'],
+    origin: [
+      'http://localhost:3000',
+      'https://fatima-call-to-salvation-ck4v.vercel.app/',
+    ],
     credentials: true,
 }))
 
