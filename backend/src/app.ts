@@ -17,10 +17,8 @@ app.use(errorHandler)
 app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(cors({
-    origin: [
-        process.env.NODE_ENV === 'production' ? 
-        'https://fatima-as-it-was-given.vercel.app' :
-        'http://localhost:3000',
+    origin: [ 
+        'https://fatima-as-it-was-given.vercel.app', 'http://localhost:3000'
     ],
     credentials: true,
 }))

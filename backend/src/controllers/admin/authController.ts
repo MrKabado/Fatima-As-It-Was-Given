@@ -3,7 +3,6 @@ import { sendMail } from "../../services/sendMail";
 import { Index } from "../../models/Index"
 import { generateUniqueCode } from "../../utils/generateCode";
 import { generateJwt } from "../../utils/generateJwt";
-import 'dotenv/config'
 
 interface IAccessCodeDest {
     access_code: string;
