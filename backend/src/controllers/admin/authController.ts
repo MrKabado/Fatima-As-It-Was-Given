@@ -75,7 +75,7 @@ export const logoutAccess = (req: Request, res: Response) => {
     res.clearCookie('jwt', {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
-        sameSite: 'lax',
+        sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
     });
     return res.status(200).json({ message: "Logged out successfully." });
 }
