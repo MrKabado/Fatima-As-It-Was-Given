@@ -3,6 +3,7 @@ import type { Response, Request } from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
 import cookieParser from 'cookie-parser'
+import path from 'path'
 import { errorHandler } from './middlewares/errorHandler'
 
 // @Routes Import
@@ -15,12 +16,14 @@ app.use(express.json())
 app.use(errorHandler)
 app.use(morgan('dev'))
 app.use(cookieParser())
+
 app.use(cors({
     origin: [process.env.NODE_ENV === 'production' ? 
         'https://fatima-a-call-to-salvation.vercel.app' : 
         'http://localhost:3000'],
     credentials: true,
 }))
+
 
 // @Default Endpoint
 app.use('/api/auth', authRoute)
