@@ -7,6 +7,7 @@ import { ButtonSubmit } from "@/components/button";
 import { authStore } from "@/stores/authStore";
 import { htmlContainerStore } from "@/stores/htmlContainerStore";
 import { Pencil, Save } from 'lucide-react';
+import { toast } from "sonner";
 
 interface ControlledEditableProps extends HTMLAttributes<HTMLDivElement> {
   isEditable: boolean;
@@ -189,17 +190,17 @@ export default function AccessCode() {
         console.log('Content saved successfully:', identifier);
       } else {
         console.error('Failed to save content:', identifier);
-        alert('Failed to save content. Please try again.');
+        toast.error('Failed to save content. Please try again.');
       }
     } catch (error) {
       console.error('Error saving content:', error);
-      alert('Error saving content. Please try again.');
+      toast.error('Error saving content. Please try again.');
     }
   };
 
   const handleToggleEdit = () => {
     if (!isAutheticated) {
-      alert('Please login with access code to enable edit mode.');
+      toast.success('Please login with access code to enable edit mode.');
       return;
     }
     setIsEditable(!isEditable);
@@ -219,7 +220,7 @@ export default function AccessCode() {
   const handleConfirmResend = async () => {
     const confirmLabel = getContent('access-code-modal-confirm-label').toLowerCase();
     if (confirmText.toLowerCase() !== confirmLabel) {
-      alert(`Please type '${confirmLabel}' to proceed`);
+      toast.error(`Please type '${confirmLabel}' to proceed`);
       return;
     }
 

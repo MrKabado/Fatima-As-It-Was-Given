@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { requestAccessCode, requestNewAccessCode, checkAuthentication, logout } from "@/services/authService";
+import { toast } from "sonner";
     
 interface IAuthState {
     authenticatedData: Record<string, unknown>;
@@ -18,11 +19,11 @@ export const authStore = create<IAuthState>()((set) => ({
         try {
             const response = await requestAccessCode(accessCode);
             set({ isAutheticated: true });
-            alert(response.message);
+            toast.success(response.message);
             return true;
         } catch (error) {
             console.error("Error request access failed:", error);
-            alert("Access code request failed. Please try again.");
+            toast.error("Access code request failed. Please try again.");
             return false;
         }
     },
@@ -31,10 +32,10 @@ export const authStore = create<IAuthState>()((set) => ({
         try {
             const response = await requestNewAccessCode();
             if(response.status === 400 || response.status === 500) {
-                alert(response.message);
+                toast.error(response.message);
                 return;
             }
-            alert(response.message);
+            toast.success(response.message);
             return
         } catch (error) {
             console.error("Requesting new access code:", error);
