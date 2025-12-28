@@ -1,6 +1,8 @@
 import axios from "axios";
 
 export const apiInstance = axios.create({
-    baseURL: 'https://fatima-as-it-was-given.onrender.com',
+    baseURL: process.env.NODE_ENV === 'production' ? 
+        'https://fatima-as-it-was-given.onrender.com' : 
+        'http://localhost:5000/api',
     withCredentials: true
 })
