@@ -1,19 +1,47 @@
-'use client';
+"use client";
 
-import { TbPlayerPlay, TbPlayerStop  } from "react-icons/tb";
+import { Volume2, VolumeOff } from "lucide-react";
 import { useTextToSpeech } from "@/hooks/useTextToSpeech";
 
-export default function TextToSpeech({ textContent }: { textContent?: string }) {
-    const { isSpeaking, readText, stopReading } = useTextToSpeech();
+export default function TextToSpeech({
+  textContent,
+}: {
+  textContent?: string;
+}) {
+  const { isSpeaking, readText, stopReading } = useTextToSpeech();
 
-    return (
-        <div className="flex items-center border border-gray-300 py-2 px-2 rounded-full shadow-sm bg-white gap-2">
-            <button className="flex items-center space-x-2.5 cursor-pointer" onClick={() => isSpeaking ? stopReading() : readText(textContent || "")}>
-            {/* <span className="text-lg">
-                {isSpeaking ? "Listening..." : "Listen"}
-            </span> */}
-                {isSpeaking ? <TbPlayerStop className="w-10 h-10" /> : <TbPlayerPlay className="w-10 h-10" />}
-            </button>
-        </div>
-    );
+  return (
+    <div className="flex justify-center">
+      <button
+        onClick={() =>
+          isSpeaking ? stopReading() : readText(textContent || "")
+        }
+        className="
+      flex items-center gap-2
+      px-4 py-2
+      sm:px-5 sm:py-2.5
+      bg-white
+      border border-gray-200
+      rounded-full
+      shadow-sm
+      hover:shadow-md
+      hover:bg-gray-50
+      active:scale-95
+      transition-all duration-200
+      cursor-pointer
+      w-fit
+    "
+      >
+        {isSpeaking ? (
+          <VolumeOff className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700" />
+        ) : (
+          <Volume2 className="w-5 h-5 sm:w-6 sm:h-6 text-gray-700" />
+        )}
+
+        <span className="text-sm sm:text-base font-medium text-gray-800">
+          {isSpeaking ? "Stop Reading" : "Listen"}
+        </span>
+      </button>
+    </div>
+  );
 }
