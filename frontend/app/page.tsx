@@ -285,7 +285,7 @@ export default function Home() {
                             try {
                                 await createContainer(identifier, content);
                             } catch {
-                                console.log('Container might already exist:', identifier);
+                                console.log('Container might already exist: ', identifier);
                             }
                         }
                     }
