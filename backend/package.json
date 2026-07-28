@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp -r src/views dist/views",
     "dev": "nodemon",
     "start": "node dist/server.js",
     "seed:accesscodes": "ts-node src/seeders/seedAccessCode.ts"
