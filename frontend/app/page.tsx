@@ -84,19 +84,19 @@ const goldenThreadSections = [
     id: 0,
     heading: "JESUS CHRIST",
     content:
-      "Every journey begins somewhere.<br>I believe every genuine search for TRUTH must begin with Jesus Christ.<br>Not the Church<br>Not the Pope<br>Not an apparition<br>Not even Our Lady.<br>Only with Jesus.<br><br>He is the One who entered human history, revealed the Father, called mankind to repentance, died for our salvation, rose from the dead, and continues to call us to Himself.<br><br>His teaching was clear. Love God with your whole heart. Love your neighbour. Turn away from sin. Believe the Gospel. Forgive. Pray. Be faithful. Take up your cross and follow Him.<br><br>These are not suggestions.<br>They are the Way.<br><br>I have come to believe that over the centuries mankind has gradually drifted away from that Way. We have often preferred comfort to conversion, opinion to obedience, and compromise to truth.<br><br>The question that began to occupy my mind was:<br>If Jesus came to show us the Way to salvation, why are we moving away from Him?<br><br>This question led me to look again at the events in Paris, Lourdes and Fatima. I began to ask whether Heaven was simply repeating the Gospel in a language suited to our own times, or whether there was something in those messages we had failed to understand.<br><br>This website is my attempt to explore those questions.<br><br>I invite you to make the journey with me.<br>Not to accept my conclusions without question, but to examine the evidence, reflect on it in good conscience, and ask yourself one question:<br>Am I moving towards Jesus?<br><br>If that question remains at the center of our journey, then every page that follows will have served its purpose.",
+      "Every journey begins somewhere.<br>I believe every genuine search for TRUTH must begin with Jesus Christ.<br>Not the Church<br>Not the Pope<br>Not an apparition<br>Not even Our Lady.<br>Only with Jesus.<br><br>He is the One who entered human history, revealed the Father, called mankind to repentance, died for our salvation, rose from the dead, and continues to call us to Himself.<br><br>His teaching was clear. Love God with your whole heart. Love your neighbour. Turn away from sin. Believe the Gospel. Forgive. Pray. Be faithful. Take up your cross and follow Him.<br><br>These are not suggestions.<br>They are the Way.<br><br>I have come to believe that over the centuries mankind has gradually drifted away from that Way. We have often preferred comfort to conversion, opinion to obedience, and compromise to truth.<br><br>The question that began to occupy my mind was:<br>If Jesus came to show us the Way to salvation, why are we moving away from Him?<br><br>This question led me to look again at the events in Paris, Lourdes and Fatima. I began to ask whether Heaven was simply repeating the Gospel in a language suited to our own times, or whether there was something in those messages we had failed to understand.<br><br>This website is my attempt to explore those questions.<br><br>I invite you to make the journey with me.<br>Not to accept my conclusions without question, but to examine the evidence, reflect on it in good conscience, and ask yourself one question:<br><strong>Am I moving towards Jesus?</strong><br><br>If that question remains at the center of our journey, then every page that follows will have served its purpose.",
   },
   {
     id: 1,
     heading: "HIS CALL TO SALVATION",
     content:
-      "If Jesus Christ is the center of our journey, then we must ask why He came.<br><br>He came because God loves mankind.<br><br>He came to call sinners to repentance, to reconcile us with the Father, and to open the way to eternal life.<br><br>Salvation is not merely about living a good life. It is about responding to God's invitation to become the people He created us to be.<br><br>Jesus spoke often about salvation, but He also spoke of the choices that lead towards it, or lead away from it.<br><br>He called us to repent.<br>He called us to believe.<br>He called us to pray.<br>He called us to forgive.<br>He called us to love God above all things, and love our neighbour as ourselves.<br><br>He spoke of Heaven as our true home.<br><br>He spoke of Hell, not to frighten us, but to urge us to choose life.<br><br>As I reflected on the Gospels, one thought kept returning to me...<br>If salvation was so central to Jesus's mission, why does so much of modern Christianity seem to speak more about earthly happiness than eternal destiny?<br><br>That question became the beginning of my search...<br>\"Is there something wrong in our Church, and if so, can we help?\"<br><br>It eventually led me to ask whether Heaven continues to remind us of Jesus's message through the apparitions at Paris, Lourdes and, most especially, Fatima.<br><br>The pages that follow explain why I believe that question deserves very careful consideration.<br><br>My invitation is simple.<br>Walk the journey with me.<br>Ask the questions.<br>Examine the evidence.<br><br>Above all, keep asking yourself:<br>AM I RESPONDING TO JESUS'S CALL TO SALVATION?",
+      "If Jesus Christ is the center of our journey, then we must ask why He came.<br><br>He came because God loves mankind.<br><br>He came to call sinners to repentance, to reconcile us with the Father, and to open the way to eternal life.<br><br>Salvation is not merely about living a good life. It is about responding to God's invitation to become the people He created us to be.<br><br>Jesus spoke often about salvation, but He also spoke of the choices that lead towards it, or lead away from it.<br><br>He called us to repent.<br>He called us to believe.<br>He called us to pray.<br>He called us to forgive.<br>He called us to love God above all things, and love our neighbour as ourselves.<br><br>He spoke of Heaven as our true home.<br><br>He spoke of Hell, not to frighten us, but to urge us to choose life.<br><br>As I reflected on the Gospels, one thought kept returning to me...<br>If salvation was so central to Jesus's mission, why does so much of modern Christianity seem to speak more about earthly happiness than eternal destiny?<br><br>That question became the beginning of my search...<br>\"Is there something wrong in our Church, and if so, can we help?\"<br><br>It eventually led me to ask whether Heaven continues to remind us of Jesus's message through the apparitions at Paris, Lourdes and, most especially, Fatima.<br><br>The pages that follow explain why I believe that question deserves very careful consideration.<br><br>My invitation is simple.<br>Walk the journey with me.<br>Ask the questions.<br>Examine the evidence.<br><br>Above all, keep asking yourself:<br><strong>AM I RESPONDING TO JESUS'S CALL TO SALVATION?</strong>",
   },
   {
     id: 2,
     heading: "MANKIND'S DRIFT",
     content:
-      "Jesus showed us the Way.<br>He called us to repentance, obedience, prayer and faithfulness.<br><br>If His Way leads to salvation, then another question follows:<br>Why has mankind continued to drift away from it?<br><br>History is a story of great achievements, but also of repeated failures.<br><br>Every generation has known war, injustice, pride, greed, violence and a rejection of God's will.<br><br>We have become skilled at changing the world around us, yet often very reluctant to change ourselves.<br><br>The drift is rarely sudden.<br>It begins with small compromises.<br><br>Sin becomes acceptable.<br>Truth becomes negotiable.<br>God becomes less central in our lives.<br><br>Eventually we no longer ask the most important question of all:<br>WHAT DOES GOD ASK OF ME?<br><br>And then I thought:<br>IF JESUS KNEW WE WOULD CONTINUE TO DRIFT FROM HIM, WOULD HE LEAVE US TO OURSELVES?<br><br>Or:<br>BECAUSE OF HIS LOVE FOR US, WOULD HE CONTINUE TO CALL US BACK TO HIM?<br><br>This led me to look beyond history and ask whether Heaven itself had continued to guide mankind with a renewed urgency.<br><br>The next stage of that journey begins, not with mankind's response, but with Heaven's.",
+      "Jesus showed us the Way.<br>He called us to repentance, obedience, prayer and faithfulness.<br><br>If His Way leads to salvation, then another question follows:<br>Why has mankind continued to drift away from it?<br><br>History is a story of great achievements, but also of repeated failures.<br><br>Every generation has known war, injustice, pride, greed, violence and a rejection of God's will.<br><br>We have become skilled at changing the world around us, yet often very reluctant to change ourselves.<br><br>The drift is rarely sudden.<br>It begins with small compromises.<br><br>Sin becomes acceptable.<br>Truth becomes negotiable.<br>God becomes less central in our lives.<br><br>Eventually we no longer ask the most important question of all:<br><strong>WHAT DOES GOD ASK OF ME?</strong>><br><br>And then I thought:<br><strong>IF JESUS KNEW WE WOULD CONTINUE TO DRIFT FROM HIM, WOULD HE LEAVE US TO OURSELVES?</strong><br><br>Or:<br><strong>BECAUSE OF HIS LOVE FOR US, WOULD HE CONTINUE TO CALL US BACK TO HIM?</strong><br><br>This led me to look beyond history and ask whether Heaven itself had continued to guide mankind with a renewed urgency.<br><br>The next stage of that journey begins, not with mankind's response, but with Heaven's.",
   },
   {
     id: 3,
@@ -108,19 +108,19 @@ const goldenThreadSections = [
     id: 4,
     heading: "MARY'S ROLE",
     content:
-      'I believe Jesus sent His Mother to help us.<br><br>She did not choose this role.<br>God chose Her for it.<br>She accepted it with humility.<br><br>As She did long ago:<br>"LET IT BE DONE TO ME ACCORDING TO THY WORD."<br><br>She never pointed to Herself... She always pointed to Her Son.<br><br>Her message has never changed... "Do whatever He asks."<br><br>I looked at Paris, Lourdes, and Fatima.<br>The messenger is always the Mother.<br>The purpose is always the Son.<br>The appeal is always the salvation of souls.<br><br>Her role is not to replace Jesus, but to lead us back to Him.<br>Every request She makes has that goal.<br><br>Prayer.<br>Repentance.<br>Reparation.<br>Conversion.<br>Faithfulness.<br><br>These are not new teachings, but rather the Gospel spoken with a mother\'s voice.<br><br>But why at this time in history?<br>That answer I believe lies in the message of Fatima.',
+      'I believe Jesus sent His Mother to help us.<br><br>She did not choose this role.<br>God chose Her for it.<br>She accepted it with humility.<br><br>As She did long ago:<br><strong>"LET IT BE DONE TO ME ACCORDING TO THY WORD."</strong><br><br>She never pointed to Herself... She always pointed to Her Son.<br><br>Her message has never changed... "Do whatever He asks."<br><br>I looked at Paris, Lourdes, and Fatima.<br>The messenger is always the Mother.<br>The purpose is always the Son.<br>The appeal is always the salvation of souls.<br><br>Her role is not to replace Jesus, but to lead us back to Him.<br>Every request She makes has that goal.<br><br>Prayer.<br>Repentance.<br>Reparation.<br>Conversion.<br>Faithfulness.<br><br>These are not new teachings, but rather the Gospel spoken with a mother\'s voice.<br><br>But why at this time in history?<br>That answer I believe lies in the message of Fatima.',
   },
   {
     id: 5,
     heading: "FATIMA'S URGENCY",
     content:
-      "As I reflected on the events of 1917, again, after many times, it struck me.<br><br>Before peace.<br>Before Russia.<br>Before Rosary.<br>Before Consecration.<br>She showed the children Hell.<br><br>She was telling me Her concern.<br>It was not politics,<br>It was not nations,<br>It was not war.<br>IT WAS THE WELFARE OF SOULS.<br><br>Whether we reflect on that vision literally, symbolically, or devotionally, the message is unmistakably urgent...<br>SALVATION MATTERS.<br><br>Everything that followed, calls to prayer, repentance, reparation, consecration, sacrifice, devotion and conversion, all flow from that vision.<br>A CALL TO RESCUE MANKIND.<br><br>Understanding that changed everything about Fatima.<br>Those requests weren't isolated devotions.<br><br>They were Heaven's response to our drift from Jesus.<br><br>But, what did Heaven want of us?<br>And so urgently.",
+      "As I reflected on the events of 1917, again, after many times, it struck me.<br><br>Before peace.<br>Before Russia.<br>Before Rosary.<br>Before Consecration.<br>She showed the children Hell.<br><br>She was telling me Her concern.<br>It was not politics,<br>It was not nations,<br>It was not war.<br><strong>IT WAS THE WELFARE OF SOULS.</strong><br><br>Whether we reflect on that vision literally, symbolically, or devotionally, the message is unmistakably urgent...<br><strong>SALVATION MATTERS.</strong><br><br>Everything that followed, calls to prayer, repentance, reparation, consecration, sacrifice, devotion and conversion, all flow from that vision.<br><strong>A CALL TO RESCUE MANKIND.</strong><br><br>Understanding that changed everything about Fatima.<br>Those requests weren't isolated devotions.<br><br>They were Heaven's response to our drift from Jesus.<br><br>But, what did Heaven want of us?<br>And so urgently.",
   },
   {
     id: 6,
     heading: "HEAVEN'S REQUESTS",
     content:
-      "So, if Fatima is, above all, a call to the salvation of souls, then:<br>What did Heaven actually ask of us?<br><br>We were not asked for some complicated theology.<br>We were not asked for extraordinary achievements.<br>We were not asked for extraordinary faithfulness.<br><br>We were asked to:<br>Pray the Rosary.<br>Offer little sacrifices in reparation for sin.<br>Seek a personal conversion.<br>Wear the Brown Scapular.<br>Practice the Five First Saturdays of Reparation.<br>Accept suffering with trust in God.<br>Live lives of obedience to God.<br><br>(These were the early requests.)<br><br>ALL POINTING AWAY FROM SELF AND LEADING TO JESUS.<br><br>With some reluctance I stood before the mirror.<br>The mirror is my best friend or my worst enemy.<br><br>I asked.<br>HOW AM I DOING?",
+      "So, if Fatima is, above all, a call to the salvation of souls, then:<br>What did Heaven actually ask of us?<br><br>We were not asked for some complicated theology.<br>We were not asked for extraordinary achievements.<br>We were not asked for extraordinary faithfulness.<br><br>We were asked to:<br>Pray the Rosary.<br>Offer little sacrifices in reparation for sin.<br>Seek a personal conversion.<br>Wear the Brown Scapular.<br>Practice the Five First Saturdays of Reparation.<br>Accept suffering with trust in God.<br>Live lives of obedience to God.<br><br>(These were the early requests.)<br><br>ALL POINTING AWAY FROM SELF AND LEADING TO JESUS.<br><br>With some reluctance I stood before the mirror.<br>The mirror is my best friend or my worst enemy.<br><br>I asked.<br><strong>HOW AM I DOING?<br>So...</strong>",
   },
   {
     id: 7,
@@ -132,7 +132,7 @@ const goldenThreadSections = [
     id: 8,
     heading: "HAVE I READ FATIMA CORRECTLY?",
     content:
-      "Until this point, my journey had been one of discovery.<br><br>I had come to see Jesus as the center of salvation.<br>I had come to understand Fatima as an urgent call to return to Him.<br>I had reflected on Heaven's requests to me and asked...<br>\"How am I doing?\"<br><br>But one question I could not shake off...<br>\"HAVE I UNDERSTOOD FATIMA AS HEAVEN INTENDED?\"<br><br>Because if it was just 'behave and turn back to Jesus' then Her job was done by 1925, as far as my salvation was concerned.<br><br>But She introduced more requests.<br>And not to me, but to the Church.<br><br>But then I had the mysterious third part of the secret.<br>I had the promise to return to ask for the consecration of Russia.<br>I had the various communications with Heaven until 1957.<br><br>I was a bit more than confused.<br><br>I was looking at Fatima, as I was reading it, as it happened, just as everyone did.<br><br>I had focused on Fatima... because the Church would not tell me the message it was instructed to tell me in 1960.<br><br>But this is the 2020's.<br><br>I now see those other requests in a different light.<br>(See below... Our Lady and Our Salvation.)<br><br>Heaven doesn't give gifts.<br>Everything It does is by way of a warning, and a remedy.<br><br>The warning being along the lines...<br>We will face consequences if we are not aligned with Jesus.<br><br>The remedy being to repent and turn back to Him.<br><br>The way to get us to pay attention is the attending miracle(s).<br>The miracles are the proof that Heaven is involved.<br><br>So, I followed the miracles.<br><br>I only 'accepted' undisputable supernatural events. This led me to Paris 1830 (St. Catherine's preserved body), Lourdes 1858 (St. Bernadette's preserved body), and Fatima 1917++ (St. Jacinta's preserved body and Lucia's exact prediction).<br><br>These three stood in a league of their own.",
+      "Until this point, my journey had been one of discovery.<br><br>I had come to see Jesus as the center of salvation.<br>I had come to understand Fatima as an urgent call to return to Him.<br>I had reflected on Heaven's requests to me and asked...<br>\"How am I doing?\"<br><br>But one question I could not shake off...<br><strong>\"HAVE I UNDERSTOOD FATIMA AS HEAVEN INTENDED?\"</strong><br><br>Because if it was just 'behave and turn back to Jesus' then Her job was done by 1925, as far as my salvation was concerned.<br><br>But She introduced more requests.<br>And not to me, but to the Church.<br><br>But then I had the mysterious third part of the secret.<br>I had the promise to return to ask for the consecration of Russia.<br>I had the various communications with Heaven until 1957.<br><br>I was a bit more than confused.<br><br>I was looking at Fatima, as I was reading it, as it happened, just as everyone did.<br><br>I had focused on Fatima... because the Church would not tell me the message it was instructed to tell me in 1960.<br><br>But this is the 2020's.<br><br>I now see those other requests in a different light.<br>(See below... Our Lady and Our Salvation.)<br><br>Heaven doesn't give gifts.<br>Everything It does is by way of a warning, and a remedy.<br><br>The warning being along the lines...<br>We will face consequences if we are not aligned with Jesus.<br><br>The remedy being to repent and turn back to Him.<br><br>The way to get us to pay attention is the attending miracle(s).<br>The miracles are the proof that Heaven is involved.<br><br>So, I followed the miracles.<br><br>I only 'accepted' undisputable supernatural events. This led me to Paris 1830 (St. Catherine's preserved body), Lourdes 1858 (St. Bernadette's preserved body), and Fatima 1917++ (St. Jacinta's preserved body and Lucia's exact prediction).<br><br>These three stood in a league of their own.",
   },
   {
     id: 9,
@@ -414,8 +414,8 @@ export default function Home() {
                 ${getContent("page4-page-title")}
                 ${goldenThreadSections
                   .map(
-                    (index) =>
-                      `${getContent(`page4-heading-${index}`)}\n${stripHtmlTags(getContent(`page4-content-${index}`))}`,
+                    (section) =>
+                      `${getContent(`page4-heading-${section.id}`)}\n${stripHtmlTags(getContent(`page4-content-${section.id}`))}`,
                   )
                   .join("\n\n")}
 
@@ -587,6 +587,7 @@ export default function Home() {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
+        {/* Page 1 - ABOUT THIS SITE */}
         <section
           className={`${activePage === 1 ? "block" : "hidden"} space-y-6`}
         >
@@ -601,6 +602,7 @@ export default function Home() {
           />
         </section>
 
+        {/* Page 2 - ABOUT THE DANGER */}
         <section
           className={`${activePage === 2 ? "block" : "hidden"} space-y-6`}
         >
@@ -643,6 +645,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Page 3 - ABOUT THE REMEDY */}
         <section
           className={`${activePage === 3 ? "block" : "hidden"} space-y-6`}
         >
@@ -681,6 +684,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Page 4 - ABOUT THE RESPONSIBILITY */}
         <section
           className={`${activePage === 4 ? "block" : "hidden"} space-y-6`}
         >
@@ -733,10 +737,11 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Page 5 - THE GOLDEN THREAD */}
         <section
-          className={`${activePage === 5 ? "block" : "hidden"} space-y-8`}
+          className={`${activePage === 5 ? "block" : "hidden"} space-y-10`}
         >
-          <h2 className="text-2xl font-bold text-center mb-2">
+          <h2 className="text-3xl font-bold uppercase tracking-[0.2em] text-center mb-6">
             <ControlledEditable
               isEditable={isEditable}
               content={getContent("page4-page-title")}
@@ -744,13 +749,13 @@ export default function Home() {
               onContentChange={(content) =>
                 handleContentChange("page4-page-title", content)
               }
-              className="text-2xl font-bold text-center"
+              className="text-3xl font-bold uppercase tracking-[0.2em] text-center"
             />
           </h2>
 
           {goldenThreadSections.map((section) => (
-            <div key={section.id} className="pt-2">
-              <h3 className="text-xl font-bold mb-3">
+            <div key={section.id} className="space-y-3 mb-40">
+              <h3 className="text-xl font-semibold uppercase tracking-[0.15em] text-center mb-10">
                 <ControlledEditable
                   isEditable={isEditable}
                   content={getContent(`page4-heading-${section.id}`)}
@@ -758,9 +763,10 @@ export default function Home() {
                   onContentChange={(content) =>
                     handleContentChange(`page4-heading-${section.id}`, content)
                   }
-                  className="text-xl font-bold"
+                  className="text-xl font-semibold uppercase tracking-[0.15em] text-center"
                 />
               </h3>
+
               <ControlledEditable
                 isEditable={isEditable}
                 content={getContent(`page4-content-${section.id}`)}
@@ -768,12 +774,13 @@ export default function Home() {
                 onContentChange={(content) =>
                   updatePageContent(4, section.id, content)
                 }
-                className="text-lg leading-relaxed"
+                className="text-lg leading-8 text-left"
               />
             </div>
           ))}
         </section>
 
+        {/* Page 6 - OBSERVATIONS TO PONDER */}
         <section
           className={`${activePage === 6 ? "block" : "hidden"} space-y-8`}
         >
@@ -817,6 +824,7 @@ export default function Home() {
           </ul>
         </section>
 
+        {/* Page 7 - BOOKS */}
         <section
           className={`${activePage === 7 ? "block" : "hidden"} space-y-6`}
         >
@@ -842,6 +850,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Page 8 - CONTACT DETAILS */}
         <section
           className={`${activePage === 8 ? "block" : "hidden"} space-y-6`}
         >
