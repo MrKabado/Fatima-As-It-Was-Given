@@ -80,36 +80,36 @@ function ControlledEditable({
 }
 
 const goldenThreadDefaultContent = {
-  "page4-page-title": "THE GOLDEN THREAD",
-  "page4-heading-0": "JESUS CHRIST",
-  "page4-content-0":
+  "page5-page-title": "THE GOLDEN THREAD",
+  "page5-heading-0": "JESUS CHRIST",
+  "page5-content-0":
     "Every journey begins somewhere.\n\nI believe every genuine search for TRUTH must begin with Jesus Christ.\n\nNot the Church\nNot the Pope\nNot an apparition\nNot even Our Lady.\nOnly with Jesus.\n\nHe is the One who entered human history, revealed the Father, called mankind to repentance, died for our salvation, rose from the dead, and continues to call us to Himself.\n\nHis teaching was clear. Love God with your whole heart. Love your neighbour. Turn away from sin. Believe the Gospel. Forgive. Pray. Be faithful. Take up your cross and follow Him.\n\nThese are not suggestions.\nThey are the Way.\n\nI have come to believe that over the centuries mankind has gradually drifted away from that Way. We have often preferred comfort to conversion, opinion to obedience, and compromise to truth.\n\nThe question that began to occupy my mind was:\nIf Jesus came to show us the Way to salvation, why are we moving away from Him?\n\nThis question led me to look again at the events in Paris, Lourdes and Fatima. I began to ask whether Heaven was simply repeating the Gospel in a language suited to our own times, or whether there was something in those messages we had failed to understand.\n\nThis website is my attempt to explore those questions.\n\nI invite you to make the journey with me.\nNot to accept my conclusions without question, but to examine the evidence, reflect on it in good conscience, and ask yourself one question:\nAm I moving towards Jesus?\n\nIf that question remains at the center of our journey, then every page that follows will have served its purpose.",
-  "page4-heading-1": "HIS CALL TO SALVATION",
-  "page4-content-1":
+  "page5-heading-1": "HIS CALL TO SALVATION",
+  "page5-content-1":
     "If Jesus Christ is the center of our journey, then we must ask why He came.\n\nHe came because God loves mankind.\n\nHe came to call sinners to repentance, to reconcile us with the Father, and to open the way to eternal life.\n\nSalvation is not merely about living a good life. It is about responding to God's invitation to become the people He created us to be.\n\nJesus spoke often about salvation, but He also spoke of the choices that lead towards it, or lead away from it.\n\nHe called us to repent.\nHe called us to believe.\nHe called us to pray.\nHe called us to forgive.\nHe called us to love God above all things, and love our neighbour as ourselves.\n\nHe spoke of Heaven as our true home.\n\nHe spoke of Hell, not to frighten us, but to urge us to choose life.\n\nAs I reflected on the Gospels, one thought kept returning to me...\nIf salvation was so central to Jesus's mission, why does so much of modern Christianity seem to speak more about earthly happiness than eternal destiny?\n\nThat question became the beginning of my search...\nIs there something wrong in our Church, and if so, can we help?\n\nIt eventually led me to ask whether Heaven continues to remind us of Jesus's message through the apparitions at Paris, Lourdes and, most especially, Fatima.\n\nThe pages that follow explain why I believe that question deserves very careful consideration.\n\nMy invitation is simple.\nWalk the journey with me.\nAsk the questions.\nExamine the evidence.\n\nAbove all, keep asking yourself:\nAM I RESPONDING TO JESUS'S CALL TO SALVATION?",
-  "page4-heading-2": "MANKIND'S DRIFT",
-  "page4-content-2":
+  "page5-heading-2": "MANKIND'S DRIFT",
+  "page5-content-2":
     "Jesus showed us the Way.\nHe called us to repentance, obedience, prayer and faithfulness.\n\nIf His Way leads to salvation, then another question follows:\nWhy has mankind continued to drift away from it?\n\nHistory is a story of great achievements, but also of repeated failures.\n\nEvery generation has known war, injustice, pride, greed, violence and a rejection of God's will.\n\nWe have become skilled at changing the world around us, yet often very reluctant to change ourselves.\n\nThe drift is rarely sudden.\nIt begins with small compromises.\n\nSin becomes acceptable.\nTruth becomes negotiable.\nGod becomes less central in our lives.\n\nEventually we no longer ask the most important question of all:\nWHAT DOES GOD ASK OF ME?\n\nAnd then I thought:\nIF JESUS KNEW WE WOULD CONTINUE TO DRIFT FROM HIM, WOULD HE LEAVE US TO OURSELVES?\n\nOr:\nBECAUSE OF HIS LOVE FOR US, WOULD HE CONTINUE TO CALL US BACK TO HIM?\n\nThis led me to look beyond history and ask whether Heaven itself had continued to guide mankind with a renewed urgency.\n\nThe next stage of that journey begins, not with mankind's response, but with Heaven's.",
-  "page4-heading-3": "HEAVEN'S RESPONSE",
-  "page4-content-3":
+  "page5-heading-3": "HEAVEN'S RESPONSE",
+  "page5-content-3":
     "If mankind had drifted from the path shown by Jesus Christ, what would we expect from a loving God?\n\nWould He abandon His children?\nOr:\nWould He continue to call them back?\n\nGod has never ceased calling us back:\nHe sent His prophets.\nHe sent His Son.\n\nAnd when we continued to drift, I believe He sent His Mother with a message echoing His own:\nReturn to God.\nRepent.\nPray.\nMake reparation.\nChoose the path that leads to salvation.\n\nI believe this is the thread that unites the great Marian apparitions.\n\nParis is not an isolated event.\nLourdes is not an isolated event.\nFatima is not an isolated event.\n\nI believe they form a continuous appeal from Heaven, each one building on the last, each one repeating the same loving invitation in a world moving even further from Jesus.\n\nThe messenger is different from the sender.\nThe voice is a mother's voice.\nThe invitation remains Her Son's.\n\nThat understanding changed the way I began to read the messages.\nInstead of asking what happened at Paris, Lourdes, or Fatima?\nI began to ask what is Heaven trying to tell me?",
-  "page4-heading-4": "MARY'S ROLE",
-  "page4-content-4":
+  "page5-heading-4": "MARY'S ROLE",
+  "page5-content-4":
     "I believe Jesus sent His Mother to help us.\n\nShe did not choose this role.\nGod chose Her for it.\nShe accepted it with humility.\n\nAs She did long ago:\nLET IT BE DONE TO ME ACCORDING TO THY WORD.\n\nShe never pointed to Herself. She always pointed to Her Son.\n\nHer message has never changed. Do whatever He asks.\n\nI looked at Paris, Lourdes, and Fatima.\nThe messenger is always the Mother.\nThe purpose is always the Son.\nThe appeal is always the salvation of souls.\n\nHer role is not to replace Jesus, but to lead us back to Him.\nEvery request She makes has that goal.\n\nPrayer.\nRepentance.\nReparation.\nConversion.\nFaithfulness.\n\nThese are not new teachings, but rather the Gospel spoken with a mother's voice.\n\nBut why at this time in history?\nThat answer I believe lies in the message of Fatima.",
-  "page4-heading-5": "FATIMA'S URGENCY",
-  "page4-content-5":
+  "page5-heading-5": "FATIMA'S URGENCY",
+  "page5-content-5":
     "As I reflected on the events of 1917, again, after many times, it struck me.\n\nBefore peace.\nBefore Russia.\nBefore Rosary.\nBefore Consecration.\nShe showed the children Hell.\n\nShe was telling me Her concern.\nIt was not politics.\nIt was not nations.\nIt was not war.\nIT WAS THE WELFARE OF SOULS.\n\nWhether we reflect on that vision literally, symbolically, or devotionally, the message is unmistakably urgent...\nSALVATION MATTERS.\n\nEverything that followed, calls to prayer, repentance, reparation, consecration, sacrifice, devotion and conversion, all flow from that vision.\nA CALL TO RESCUE MANKIND.\n\nUnderstanding that changed everything about Fatima.\nThose requests weren't isolated devotions.\n\nThey were Heaven's response to our drift from Jesus.\n\nBut what did Heaven want of us?\nAnd so urgently.",
-  "page4-heading-6": "HEAVEN'S REQUESTS",
-  "page4-content-6":
+  "page5-heading-6": "HEAVEN'S REQUESTS",
+  "page5-content-6":
     "So, if Fatima is, above all, a call to the salvation of souls, then:\nWhat did Heaven actually ask of us?\n\nWe were not asked for some complicated theology.\nWe were not asked for extraordinary achievements.\nWe were not asked for extraordinary faithfulness.\n\nWe were asked to:\nPray the Rosary.\nOffer little sacrifices in reparation for sin.\nSeek a personal conversion.\nWear the Brown Scapular.\nPractice the Five First Saturdays of Reparation.\nAccept suffering with trust in God.\nLive lives of obedience to God.\n\nThese were the early requests.\n\nALL POINTING AWAY FROM SELF AND LEADING TO JESUS.\n\nWith some reluctance I stood before the mirror.\nThe mirror is my best friend or my worst enemy.\n\nI asked.\nHOW AM I DOING?",
-  "page4-heading-7": "HOW AM I DOING?",
-  "page4-content-7":
+  "page5-heading-7": "HOW AM I DOING?",
+  "page5-content-7":
     "My salvation does not depend on...\nHow the world is doing.\nHow the church is doing.\nHow others are doing.\n\nMy salvation depends on...\nAm I moving closer to Jesus?\nAm I responding to His call?\nAm I praying?\nAm I making reparation?\nAm I placing my trust in Him?\n\nGiven that Heaven's requests are so clear...\nHAVE I RESPONDED AS HEAVEN REQUESTED?\n\nMirror aside, I do not like my mark out of 100.\n\nBut the question, and my miserable grades, prompted another question, and perhaps created another problem.\n\nI looked at history, the church, apparitions, and testimonies of those involved.\nWhat I discovered surprised me.\n\nWalk with me...",
-  "page4-heading-8": "HAVE I READ FATIMA CORRECTLY?",
-  "page4-content-8":
+  "page5-heading-8": "HAVE I READ FATIMA CORRECTLY?",
+  "page5-content-8":
     "Until this point, my journey had been one of discovery.\n\nI had come to see Jesus as the center of salvation.\nI had come to understand Fatima as an urgent call to return to Him.\nI had reflected on Heaven's requests to me and asked...\nHow am I doing?\n\nBut one question I could not shake off...\nHAVE I UNDERSTOOD FATIMA AS HEAVEN INTENDED?\n\nBecause if it was just behave and turn back to Jesus, then Her job was done by 1925, as far as my salvation was concerned.\n\nBut She introduced more requests.\nAnd not to me, but to the Church.\n\nBut then I had the mysterious third part of the secret.\nI had the promise to return to ask for the consecration of Russia.\nI had the various communications with Heaven until 1957.\n\nI was a bit more than confused.\n\nI was looking at Fatima, as I was reading it, as it happened, just as everyone did.\n\nI had focused on Fatima because the Church would not tell me the message it was instructed to tell me in 1960.\nBut this is the 2020's.\nI now see those other requests in a different light.\n\nSee below: Our Lady and Our Salvation.\n\nHeaven doesn't give gifts.\nEverything It does is by way of a warning and a remedy.\n\nThe warning being along the lines...\nWe will face consequences if we are not aligned with Jesus.\n\nThe remedy being to repent and turn back to Him.\n\nThe way to get us to pay attention is the attending miracle(s).\nThe miracles are the proof that Heaven is involved.\n\nSo, I followed the miracles.\n\nI only accepted undisputable supernatural events. This led me to Paris 1830, Lourdes 1858, and Fatima 1917 plus the preserved body of Jacinta and Lucia's exact prediction.\n\nThese three stood in a league of their own.",
-  "page4-heading-9": "WHERE MY JOURNEY LED",
-  "page4-content-9":
+  "page5-heading-9": "WHERE MY JOURNEY LED",
+  "page5-content-9":
     "As I continued to examine the messages of Paris, Lourdes and Fatima, I gradually came to conclusions that differed from those I had accepted for most of my life.\n\nThose conclusions did not appear suddenly. They emerged over many years of reading, reflection, prayer and comparison with the messages themselves.\n\nI realise that some of my interpretations differ significantly from those commonly presented.\n\nFor that reason I have tried throughout this website to distinguish carefully between historical events, the recorded messages, and my conclusions.\n\nRather than interrupt the Golden Thread with detailed discussion, I have brought my principal observations together in a separate work entitled:\nOUR LADY AND OUR SALVATION\n\nIn that booklet I explain, step by step, how I came to my understanding of the relationship between the messages of Paris, Lourdes and Fatima, and why I believe they should be reconsidered.\n\nYou may agree with my conclusions.\nYou may disagree with my conclusions.\n\nMy hope is that you examine the evidence carefully, reflect, and decide for yourself.\n\nA copy of Our Lady and Our Salvation is available on request onsite.",
 };
 
@@ -170,12 +170,12 @@ const defaultContent = {
     "These are not guarantees of peace, but co-operation with grace, and",
 
   // Page 4 - ABOUT THE RESPONSIBILITY
-  "page5-content-0":
+  "page4-content-0":
     "My soul is not saved because I know that confusion exists.",
-  "page5-content-1": "My soul is not saved because clarity is hard to find.",
-  "page5-content-2": "Salvation is personal.",
-  "page5-content-3": "My job is not to solve the crises.",
-  "page5-content-4": "My job is to be faithful because of them.",
+  "page4-content-1": "My soul is not saved because clarity is hard to find.",
+  "page4-content-2": "Salvation is personal.",
+  "page4-content-3": "My job is not to solve the crises.",
+  "page4-content-4": "My job is to be faithful because of them.",
 
   // Page 5 - THE GOLDEN THREAD
   ...goldenThreadDefaultContent,
@@ -218,11 +218,11 @@ const defaultContent = {
 
   "page3-heading": "GRACE IS WHAT SAVES SOULS.",
 
-  "page5-heading": "I am responsible for that.",
-  "page5-item-1": "I am responsible for my daily rosary.",
-  "page5-item-2":
+  "page4-heading": "I am responsible for that.",
+  "page4-item-1": "I am responsible for my daily rosary.",
+  "page4-item-2":
     "I am responsible to consecrate myself to the Immaculate Heart.",
-  "page5-item-3": "I am responsible to make reparation for insults to Her.",
+  "page4-item-3": "I am responsible to make reparation for insults to Her.",
 
   // Page 8 - CONTACT DETAILS
   "page8-text-1":
@@ -376,37 +376,37 @@ export default function Home() {
                 ${getContent("page3-heading")}
 
 
-                ${getContent("page4-page-title")}
+                ${getContent("page5-page-title")}
                 ${Array.from({ length: 10 }, (_, index) => index)
                   .map(
                     (index) =>
-                      `${getContent(`page4-heading-${index}`)}\n${stripHtmlTags(getContent(`page4-content-${index}`))}`,
+                      `${getContent(`page5-heading-${index}`)}\n${stripHtmlTags(getContent(`page5-content-${index}`))}`,
                   )
                   .join("\n\n")}
 
 
                 ABOUT THE RESPONSIBILITY
-                ${stripHtmlTags(getContent("page5-content-0"))}
+                ${stripHtmlTags(getContent("page4-content-0"))}
 
-                ${stripHtmlTags(getContent("page5-content-1"))}
+                ${stripHtmlTags(getContent("page4-content-1"))}
 
-                ${stripHtmlTags(getContent("page5-content-2"))}
+                ${stripHtmlTags(getContent("page4-content-2"))}
 
-                ${stripHtmlTags(getContent("page5-content-3"))}
+                ${stripHtmlTags(getContent("page4-content-3"))}
 
-                ${stripHtmlTags(getContent("page5-content-4"))}
+                ${stripHtmlTags(getContent("page4-content-4"))}
 
 
                 ...
 
 
-                ${getContent("page5-heading")}
+                ${getContent("page4-heading")}
                 •
-                ${getContent("page5-item-1")}
+                ${getContent("page4-item-1")}
                 •
-                ${getContent("page5-item-2")}
+                ${getContent("page4-item-2")}
                 •
-                ${getContent("page5-item-3")}
+                ${getContent("page4-item-3")}
 
 
                 OBSERVATIONS TO PONDER
@@ -658,10 +658,10 @@ export default function Home() {
               <ControlledEditable
                 key={index}
                 isEditable={isEditable}
-                content={getContent(`page5-content-${index}`)}
-                identifier={`page5-content-${index}`}
+                content={getContent(`page4-content-${index}`)}
+                identifier={`page4-content-${index}`}
                 onContentChange={(content) =>
-                  updatePageContent(5, index, content)
+                  updatePageContent(4, index, content)
                 }
                 className="text-lg leading-relaxed text-center italic"
               />
@@ -672,10 +672,10 @@ export default function Home() {
             <h3 className="text-xl font-bold mb-4">
               <ControlledEditable
                 isEditable={isEditable}
-                content={getContent("page5-heading")}
-                identifier="page5-heading"
+                content={getContent("page4-heading")}
+                identifier="page4-heading"
                 onContentChange={(content) =>
-                  handleContentChange("page5-heading", content)
+                  handleContentChange("page4-heading", content)
                 }
                 className="text-xl font-bold"
               />
@@ -688,10 +688,10 @@ export default function Home() {
                   <span>
                     <ControlledEditable
                       isEditable={isEditable}
-                      content={getContent(`page5-item-${n}`)}
-                      identifier={`page5-item-${n}`}
+                      content={getContent(`page4-item-${n}`)}
+                      identifier={`page4-item-${n}`}
                       onContentChange={(content) =>
-                        handleContentChange(`page5-item-${n}`, content)
+                        handleContentChange(`page4-item-${n}`, content)
                       }
                       className=""
                     />
@@ -709,10 +709,10 @@ export default function Home() {
           <h2 className="text-3xl font-bold uppercase tracking-[0.2em] text-center mb-6">
             <ControlledEditable
               isEditable={isEditable}
-              content={getContent("page4-page-title")}
-              identifier="page4-page-title"
+              content={getContent("page5-page-title")}
+              identifier="page5-page-title"
               onContentChange={(content) =>
-                handleContentChange("page4-page-title", content)
+                handleContentChange("page5-page-title", content)
               }
               className="text-3xl font-bold uppercase tracking-[0.2em] text-center"
             />
@@ -723,10 +723,10 @@ export default function Home() {
               <h3 className="text-xl font-semibold uppercase tracking-[0.15em] text-center mb-10">
                 <ControlledEditable
                   isEditable={isEditable}
-                  content={getContent(`page4-heading-${index}`)}
-                  identifier={`page4-heading-${index}`}
+                  content={getContent(`page5-heading-${index}`)}
+                  identifier={`page5-heading-${index}`}
                   onContentChange={(content) =>
-                    handleContentChange(`page4-heading-${index}`, content)
+                    handleContentChange(`page5-heading-${index}`, content)
                   }
                   className="text-xl font-semibold uppercase tracking-[0.15em] text-center"
                 />
@@ -734,10 +734,10 @@ export default function Home() {
 
               <ControlledEditable
                 isEditable={isEditable}
-                content={getContent(`page4-content-${index}`)}
-                identifier={`page4-content-${index}`}
+                content={getContent(`page5-content-${index}`)}
+                identifier={`page5-content-${index}`}
                 onContentChange={(content) =>
-                  updatePageContent(4, index, content)
+                  updatePageContent(5, index, content)
                 }
                 className="text-lg leading-8 text-left whitespace-pre-line"
               />
