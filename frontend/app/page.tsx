@@ -79,68 +79,39 @@ function ControlledEditable({
   );
 }
 
-const goldenThreadSections = [
-  {
-    id: 0,
-    heading: "JESUS CHRIST",
-    content:
-      "Every journey begins somewhere.<br>I believe every genuine search for TRUTH must begin with Jesus Christ.<br>Not the Church<br>Not the Pope<br>Not an apparition<br>Not even Our Lady.<br>Only with Jesus.<br><br>He is the One who entered human history, revealed the Father, called mankind to repentance, died for our salvation, rose from the dead, and continues to call us to Himself.<br><br>His teaching was clear. Love God with your whole heart. Love your neighbour. Turn away from sin. Believe the Gospel. Forgive. Pray. Be faithful. Take up your cross and follow Him.<br><br>These are not suggestions.<br>They are the Way.<br><br>I have come to believe that over the centuries mankind has gradually drifted away from that Way. We have often preferred comfort to conversion, opinion to obedience, and compromise to truth.<br><br>The question that began to occupy my mind was:<br>If Jesus came to show us the Way to salvation, why are we moving away from Him?<br><br>This question led me to look again at the events in Paris, Lourdes and Fatima. I began to ask whether Heaven was simply repeating the Gospel in a language suited to our own times, or whether there was something in those messages we had failed to understand.<br><br>This website is my attempt to explore those questions.<br><br>I invite you to make the journey with me.<br>Not to accept my conclusions without question, but to examine the evidence, reflect on it in good conscience, and ask yourself one question:<br><strong>Am I moving towards Jesus?</strong><br><br>If that question remains at the center of our journey, then every page that follows will have served its purpose.",
-  },
-  {
-    id: 1,
-    heading: "HIS CALL TO SALVATION",
-    content:
-      "If Jesus Christ is the center of our journey, then we must ask why He came.<br><br>He came because God loves mankind.<br><br>He came to call sinners to repentance, to reconcile us with the Father, and to open the way to eternal life.<br><br>Salvation is not merely about living a good life. It is about responding to God's invitation to become the people He created us to be.<br><br>Jesus spoke often about salvation, but He also spoke of the choices that lead towards it, or lead away from it.<br><br>He called us to repent.<br>He called us to believe.<br>He called us to pray.<br>He called us to forgive.<br>He called us to love God above all things, and love our neighbour as ourselves.<br><br>He spoke of Heaven as our true home.<br><br>He spoke of Hell, not to frighten us, but to urge us to choose life.<br><br>As I reflected on the Gospels, one thought kept returning to me...<br>If salvation was so central to Jesus's mission, why does so much of modern Christianity seem to speak more about earthly happiness than eternal destiny?<br><br>That question became the beginning of my search...<br>\"Is there something wrong in our Church, and if so, can we help?\"<br><br>It eventually led me to ask whether Heaven continues to remind us of Jesus's message through the apparitions at Paris, Lourdes and, most especially, Fatima.<br><br>The pages that follow explain why I believe that question deserves very careful consideration.<br><br>My invitation is simple.<br>Walk the journey with me.<br>Ask the questions.<br>Examine the evidence.<br><br>Above all, keep asking yourself:<br><strong>AM I RESPONDING TO JESUS'S CALL TO SALVATION?</strong>",
-  },
-  {
-    id: 2,
-    heading: "MANKIND'S DRIFT",
-    content:
-      "Jesus showed us the Way.<br>He called us to repentance, obedience, prayer and faithfulness.<br><br>If His Way leads to salvation, then another question follows:<br>Why has mankind continued to drift away from it?<br><br>History is a story of great achievements, but also of repeated failures.<br><br>Every generation has known war, injustice, pride, greed, violence and a rejection of God's will.<br><br>We have become skilled at changing the world around us, yet often very reluctant to change ourselves.<br><br>The drift is rarely sudden.<br>It begins with small compromises.<br><br>Sin becomes acceptable.<br>Truth becomes negotiable.<br>God becomes less central in our lives.<br><br>Eventually we no longer ask the most important question of all:<br><strong>WHAT DOES GOD ASK OF ME?</strong>><br><br>And then I thought:<br><strong>IF JESUS KNEW WE WOULD CONTINUE TO DRIFT FROM HIM, WOULD HE LEAVE US TO OURSELVES?</strong><br><br>Or:<br><strong>BECAUSE OF HIS LOVE FOR US, WOULD HE CONTINUE TO CALL US BACK TO HIM?</strong><br><br>This led me to look beyond history and ask whether Heaven itself had continued to guide mankind with a renewed urgency.<br><br>The next stage of that journey begins, not with mankind's response, but with Heaven's.",
-  },
-  {
-    id: 3,
-    heading: "HEAVEN'S RESPONSE",
-    content:
-      'If mankind had drifted from the path shown by Jesus Christ, what would we expect from a loving God?<br><br>Would He abandon His children?<br>Or:<br>Would He continue to call them back?<br><br>God has never ceased calling us back:<br>He sent His prophets.<br>He sent His Son.<br><br>And when we continued to drift, I believe He sent His Mother with a message echoing His own:<br>Return to God.<br>Repent.<br>Pray.<br>Make reparation.<br>Choose the path that leads to salvation.<br><br>I believe this is the thread that unites the great Marian apparitions.<br><br>Paris is not an isolated event.<br>Lourdes is not an isolated event.<br>Fatima is not an isolated event.<br><br>I believe they form a continuous appeal from Heaven, each one building on the last, each one repeating the same loving invitation in a world moving even further from Jesus.<br><br>The messenger is different from the sender.<br>The voice is a mother\'s voice.<br>The invitation remains Her Son\'s.<br><br>That understanding changed the way I began to read the messages.<br>Instead of asking "What happened at Paris, Lourdes, or Fatima?"<br>I began to ask "What is Heaven trying to tell me?"',
-  },
-  {
-    id: 4,
-    heading: "MARY'S ROLE",
-    content:
-      'I believe Jesus sent His Mother to help us.<br><br>She did not choose this role.<br>God chose Her for it.<br>She accepted it with humility.<br><br>As She did long ago:<br><strong>"LET IT BE DONE TO ME ACCORDING TO THY WORD."</strong><br><br>She never pointed to Herself... She always pointed to Her Son.<br><br>Her message has never changed... "Do whatever He asks."<br><br>I looked at Paris, Lourdes, and Fatima.<br>The messenger is always the Mother.<br>The purpose is always the Son.<br>The appeal is always the salvation of souls.<br><br>Her role is not to replace Jesus, but to lead us back to Him.<br>Every request She makes has that goal.<br><br>Prayer.<br>Repentance.<br>Reparation.<br>Conversion.<br>Faithfulness.<br><br>These are not new teachings, but rather the Gospel spoken with a mother\'s voice.<br><br>But why at this time in history?<br>That answer I believe lies in the message of Fatima.',
-  },
-  {
-    id: 5,
-    heading: "FATIMA'S URGENCY",
-    content:
-      "As I reflected on the events of 1917, again, after many times, it struck me.<br><br>Before peace.<br>Before Russia.<br>Before Rosary.<br>Before Consecration.<br>She showed the children Hell.<br><br>She was telling me Her concern.<br>It was not politics,<br>It was not nations,<br>It was not war.<br><strong>IT WAS THE WELFARE OF SOULS.</strong><br><br>Whether we reflect on that vision literally, symbolically, or devotionally, the message is unmistakably urgent...<br><strong>SALVATION MATTERS.</strong><br><br>Everything that followed, calls to prayer, repentance, reparation, consecration, sacrifice, devotion and conversion, all flow from that vision.<br><strong>A CALL TO RESCUE MANKIND.</strong><br><br>Understanding that changed everything about Fatima.<br>Those requests weren't isolated devotions.<br><br>They were Heaven's response to our drift from Jesus.<br><br>But, what did Heaven want of us?<br>And so urgently.",
-  },
-  {
-    id: 6,
-    heading: "HEAVEN'S REQUESTS",
-    content:
-      "So, if Fatima is, above all, a call to the salvation of souls, then:<br>What did Heaven actually ask of us?<br><br>We were not asked for some complicated theology.<br>We were not asked for extraordinary achievements.<br>We were not asked for extraordinary faithfulness.<br><br>We were asked to:<br>Pray the Rosary.<br>Offer little sacrifices in reparation for sin.<br>Seek a personal conversion.<br>Wear the Brown Scapular.<br>Practice the Five First Saturdays of Reparation.<br>Accept suffering with trust in God.<br>Live lives of obedience to God.<br><br>(These were the early requests.)<br><br>ALL POINTING AWAY FROM SELF AND LEADING TO JESUS.<br><br>With some reluctance I stood before the mirror.<br>The mirror is my best friend or my worst enemy.<br><br>I asked.<br><strong>HOW AM I DOING?<br>So...</strong>",
-  },
-  {
-    id: 7,
-    heading: "HOW AM I DOING?",
-    content:
-      "My salvation does not depend on...<br>How the world is doing.<br>How the church is doing,<br>How others are doing.<br><br>My salvation depends on...<br>Am I moving closer to Jesus?<br>Am I responding to His call?<br>Am I praying?<br>Am I making reparation?<br>Am I placing my trust in Him?<br><br>Given that Heaven's requests are so clear...<br>HAVE I RESPONDED AS HEAVEN REQUESTED?<br><br>(Mirror aside, I don't like my mark out of 100.)<br><br>But the question, and my miserable grades, prompted another question, and perhaps created another problem.<br><br>I looked at history, the church, apparitions, and testimonies of those involved.<br>What I discovered surprised me.<br><br>Walk with me...",
-  },
-  {
-    id: 8,
-    heading: "HAVE I READ FATIMA CORRECTLY?",
-    content:
-      "Until this point, my journey had been one of discovery.<br><br>I had come to see Jesus as the center of salvation.<br>I had come to understand Fatima as an urgent call to return to Him.<br>I had reflected on Heaven's requests to me and asked...<br>\"How am I doing?\"<br><br>But one question I could not shake off...<br><strong>\"HAVE I UNDERSTOOD FATIMA AS HEAVEN INTENDED?\"</strong><br><br>Because if it was just 'behave and turn back to Jesus' then Her job was done by 1925, as far as my salvation was concerned.<br><br>But She introduced more requests.<br>And not to me, but to the Church.<br><br>But then I had the mysterious third part of the secret.<br>I had the promise to return to ask for the consecration of Russia.<br>I had the various communications with Heaven until 1957.<br><br>I was a bit more than confused.<br><br>I was looking at Fatima, as I was reading it, as it happened, just as everyone did.<br><br>I had focused on Fatima... because the Church would not tell me the message it was instructed to tell me in 1960.<br><br>But this is the 2020's.<br><br>I now see those other requests in a different light.<br>(See below... Our Lady and Our Salvation.)<br><br>Heaven doesn't give gifts.<br>Everything It does is by way of a warning, and a remedy.<br><br>The warning being along the lines...<br>We will face consequences if we are not aligned with Jesus.<br><br>The remedy being to repent and turn back to Him.<br><br>The way to get us to pay attention is the attending miracle(s).<br>The miracles are the proof that Heaven is involved.<br><br>So, I followed the miracles.<br><br>I only 'accepted' undisputable supernatural events. This led me to Paris 1830 (St. Catherine's preserved body), Lourdes 1858 (St. Bernadette's preserved body), and Fatima 1917++ (St. Jacinta's preserved body and Lucia's exact prediction).<br><br>These three stood in a league of their own.",
-  },
-  {
-    id: 9,
-    heading: "WHERE MY JOURNEY LED",
-    content:
-      "As I continued to examine the messages of Paris, Lourdes and Fatima, I gradually came to conclusions that differed from those I had accepted for most of my life.<br><br>Those conclusions did not appear suddenly. They emerged over many years of reading, reflection, prayer and comparison with the messages themselves.<br><br>I realise that some of my interpretations differ significantly from those commonly presented.<br><br>For that reason I have tried throughout this website to distinguish carefully between historical events, the recorded messages, and my conclusions.<br><br>Rather than interrupt the Golden Thread with detailed discussion, I have brought my principal observations together in a separate work entitled:<br>OUR LADY AND OUR SALVATION<br><br>In that booklet I explain, step by step, how I came to my understanding of the relationship between the messages of Paris, Lourdes and Fatima, and why I believe they should be reconsidered.<br><br>You may agree with my conclusions.<br>You may disagree with my conclusions.<br><br>My hope is that you examine the evidence carefully, reflect, and decide for yourself.<br><br>A copy of Our Lady and Our Salvation is available on request onsite.",
-  },
-];
+const goldenThreadDefaultContent = {
+  "page4-page-title": "THE GOLDEN THREAD",
+  "page4-heading-0": "JESUS CHRIST",
+  "page4-content-0":
+    "Every journey begins somewhere.\n\nI believe every genuine search for TRUTH must begin with Jesus Christ.\n\nNot the Church\nNot the Pope\nNot an apparition\nNot even Our Lady.\nOnly with Jesus.\n\nHe is the One who entered human history, revealed the Father, called mankind to repentance, died for our salvation, rose from the dead, and continues to call us to Himself.\n\nHis teaching was clear. Love God with your whole heart. Love your neighbour. Turn away from sin. Believe the Gospel. Forgive. Pray. Be faithful. Take up your cross and follow Him.\n\nThese are not suggestions.\nThey are the Way.\n\nI have come to believe that over the centuries mankind has gradually drifted away from that Way. We have often preferred comfort to conversion, opinion to obedience, and compromise to truth.\n\nThe question that began to occupy my mind was:\nIf Jesus came to show us the Way to salvation, why are we moving away from Him?\n\nThis question led me to look again at the events in Paris, Lourdes and Fatima. I began to ask whether Heaven was simply repeating the Gospel in a language suited to our own times, or whether there was something in those messages we had failed to understand.\n\nThis website is my attempt to explore those questions.\n\nI invite you to make the journey with me.\nNot to accept my conclusions without question, but to examine the evidence, reflect on it in good conscience, and ask yourself one question:\nAm I moving towards Jesus?\n\nIf that question remains at the center of our journey, then every page that follows will have served its purpose.",
+  "page4-heading-1": "HIS CALL TO SALVATION",
+  "page4-content-1":
+    "If Jesus Christ is the center of our journey, then we must ask why He came.\n\nHe came because God loves mankind.\n\nHe came to call sinners to repentance, to reconcile us with the Father, and to open the way to eternal life.\n\nSalvation is not merely about living a good life. It is about responding to God's invitation to become the people He created us to be.\n\nJesus spoke often about salvation, but He also spoke of the choices that lead towards it, or lead away from it.\n\nHe called us to repent.\nHe called us to believe.\nHe called us to pray.\nHe called us to forgive.\nHe called us to love God above all things, and love our neighbour as ourselves.\n\nHe spoke of Heaven as our true home.\n\nHe spoke of Hell, not to frighten us, but to urge us to choose life.\n\nAs I reflected on the Gospels, one thought kept returning to me...\nIf salvation was so central to Jesus's mission, why does so much of modern Christianity seem to speak more about earthly happiness than eternal destiny?\n\nThat question became the beginning of my search...\nIs there something wrong in our Church, and if so, can we help?\n\nIt eventually led me to ask whether Heaven continues to remind us of Jesus's message through the apparitions at Paris, Lourdes and, most especially, Fatima.\n\nThe pages that follow explain why I believe that question deserves very careful consideration.\n\nMy invitation is simple.\nWalk the journey with me.\nAsk the questions.\nExamine the evidence.\n\nAbove all, keep asking yourself:\nAM I RESPONDING TO JESUS'S CALL TO SALVATION?",
+  "page4-heading-2": "MANKIND'S DRIFT",
+  "page4-content-2":
+    "Jesus showed us the Way.\nHe called us to repentance, obedience, prayer and faithfulness.\n\nIf His Way leads to salvation, then another question follows:\nWhy has mankind continued to drift away from it?\n\nHistory is a story of great achievements, but also of repeated failures.\n\nEvery generation has known war, injustice, pride, greed, violence and a rejection of God's will.\n\nWe have become skilled at changing the world around us, yet often very reluctant to change ourselves.\n\nThe drift is rarely sudden.\nIt begins with small compromises.\n\nSin becomes acceptable.\nTruth becomes negotiable.\nGod becomes less central in our lives.\n\nEventually we no longer ask the most important question of all:\nWHAT DOES GOD ASK OF ME?\n\nAnd then I thought:\nIF JESUS KNEW WE WOULD CONTINUE TO DRIFT FROM HIM, WOULD HE LEAVE US TO OURSELVES?\n\nOr:\nBECAUSE OF HIS LOVE FOR US, WOULD HE CONTINUE TO CALL US BACK TO HIM?\n\nThis led me to look beyond history and ask whether Heaven itself had continued to guide mankind with a renewed urgency.\n\nThe next stage of that journey begins, not with mankind's response, but with Heaven's.",
+  "page4-heading-3": "HEAVEN'S RESPONSE",
+  "page4-content-3":
+    "If mankind had drifted from the path shown by Jesus Christ, what would we expect from a loving God?\n\nWould He abandon His children?\nOr:\nWould He continue to call them back?\n\nGod has never ceased calling us back:\nHe sent His prophets.\nHe sent His Son.\n\nAnd when we continued to drift, I believe He sent His Mother with a message echoing His own:\nReturn to God.\nRepent.\nPray.\nMake reparation.\nChoose the path that leads to salvation.\n\nI believe this is the thread that unites the great Marian apparitions.\n\nParis is not an isolated event.\nLourdes is not an isolated event.\nFatima is not an isolated event.\n\nI believe they form a continuous appeal from Heaven, each one building on the last, each one repeating the same loving invitation in a world moving even further from Jesus.\n\nThe messenger is different from the sender.\nThe voice is a mother's voice.\nThe invitation remains Her Son's.\n\nThat understanding changed the way I began to read the messages.\nInstead of asking what happened at Paris, Lourdes, or Fatima?\nI began to ask what is Heaven trying to tell me?",
+  "page4-heading-4": "MARY'S ROLE",
+  "page4-content-4":
+    "I believe Jesus sent His Mother to help us.\n\nShe did not choose this role.\nGod chose Her for it.\nShe accepted it with humility.\n\nAs She did long ago:\nLET IT BE DONE TO ME ACCORDING TO THY WORD.\n\nShe never pointed to Herself. She always pointed to Her Son.\n\nHer message has never changed. Do whatever He asks.\n\nI looked at Paris, Lourdes, and Fatima.\nThe messenger is always the Mother.\nThe purpose is always the Son.\nThe appeal is always the salvation of souls.\n\nHer role is not to replace Jesus, but to lead us back to Him.\nEvery request She makes has that goal.\n\nPrayer.\nRepentance.\nReparation.\nConversion.\nFaithfulness.\n\nThese are not new teachings, but rather the Gospel spoken with a mother's voice.\n\nBut why at this time in history?\nThat answer I believe lies in the message of Fatima.",
+  "page4-heading-5": "FATIMA'S URGENCY",
+  "page4-content-5":
+    "As I reflected on the events of 1917, again, after many times, it struck me.\n\nBefore peace.\nBefore Russia.\nBefore Rosary.\nBefore Consecration.\nShe showed the children Hell.\n\nShe was telling me Her concern.\nIt was not politics.\nIt was not nations.\nIt was not war.\nIT WAS THE WELFARE OF SOULS.\n\nWhether we reflect on that vision literally, symbolically, or devotionally, the message is unmistakably urgent...\nSALVATION MATTERS.\n\nEverything that followed, calls to prayer, repentance, reparation, consecration, sacrifice, devotion and conversion, all flow from that vision.\nA CALL TO RESCUE MANKIND.\n\nUnderstanding that changed everything about Fatima.\nThose requests weren't isolated devotions.\n\nThey were Heaven's response to our drift from Jesus.\n\nBut what did Heaven want of us?\nAnd so urgently.",
+  "page4-heading-6": "HEAVEN'S REQUESTS",
+  "page4-content-6":
+    "So, if Fatima is, above all, a call to the salvation of souls, then:\nWhat did Heaven actually ask of us?\n\nWe were not asked for some complicated theology.\nWe were not asked for extraordinary achievements.\nWe were not asked for extraordinary faithfulness.\n\nWe were asked to:\nPray the Rosary.\nOffer little sacrifices in reparation for sin.\nSeek a personal conversion.\nWear the Brown Scapular.\nPractice the Five First Saturdays of Reparation.\nAccept suffering with trust in God.\nLive lives of obedience to God.\n\nThese were the early requests.\n\nALL POINTING AWAY FROM SELF AND LEADING TO JESUS.\n\nWith some reluctance I stood before the mirror.\nThe mirror is my best friend or my worst enemy.\n\nI asked.\nHOW AM I DOING?",
+  "page4-heading-7": "HOW AM I DOING?",
+  "page4-content-7":
+    "My salvation does not depend on...\nHow the world is doing.\nHow the church is doing.\nHow others are doing.\n\nMy salvation depends on...\nAm I moving closer to Jesus?\nAm I responding to His call?\nAm I praying?\nAm I making reparation?\nAm I placing my trust in Him?\n\nGiven that Heaven's requests are so clear...\nHAVE I RESPONDED AS HEAVEN REQUESTED?\n\nMirror aside, I do not like my mark out of 100.\n\nBut the question, and my miserable grades, prompted another question, and perhaps created another problem.\n\nI looked at history, the church, apparitions, and testimonies of those involved.\nWhat I discovered surprised me.\n\nWalk with me...",
+  "page4-heading-8": "HAVE I READ FATIMA CORRECTLY?",
+  "page4-content-8":
+    "Until this point, my journey had been one of discovery.\n\nI had come to see Jesus as the center of salvation.\nI had come to understand Fatima as an urgent call to return to Him.\nI had reflected on Heaven's requests to me and asked...\nHow am I doing?\n\nBut one question I could not shake off...\nHAVE I UNDERSTOOD FATIMA AS HEAVEN INTENDED?\n\nBecause if it was just behave and turn back to Jesus, then Her job was done by 1925, as far as my salvation was concerned.\n\nBut She introduced more requests.\nAnd not to me, but to the Church.\n\nBut then I had the mysterious third part of the secret.\nI had the promise to return to ask for the consecration of Russia.\nI had the various communications with Heaven until 1957.\n\nI was a bit more than confused.\n\nI was looking at Fatima, as I was reading it, as it happened, just as everyone did.\n\nI had focused on Fatima because the Church would not tell me the message it was instructed to tell me in 1960.\nBut this is the 2020's.\nI now see those other requests in a different light.\n\nSee below: Our Lady and Our Salvation.\n\nHeaven doesn't give gifts.\nEverything It does is by way of a warning and a remedy.\n\nThe warning being along the lines...\nWe will face consequences if we are not aligned with Jesus.\n\nThe remedy being to repent and turn back to Him.\n\nThe way to get us to pay attention is the attending miracle(s).\nThe miracles are the proof that Heaven is involved.\n\nSo, I followed the miracles.\n\nI only accepted undisputable supernatural events. This led me to Paris 1830, Lourdes 1858, and Fatima 1917 plus the preserved body of Jacinta and Lucia's exact prediction.\n\nThese three stood in a league of their own.",
+  "page4-heading-9": "WHERE MY JOURNEY LED",
+  "page4-content-9":
+    "As I continued to examine the messages of Paris, Lourdes and Fatima, I gradually came to conclusions that differed from those I had accepted for most of my life.\n\nThose conclusions did not appear suddenly. They emerged over many years of reading, reflection, prayer and comparison with the messages themselves.\n\nI realise that some of my interpretations differ significantly from those commonly presented.\n\nFor that reason I have tried throughout this website to distinguish carefully between historical events, the recorded messages, and my conclusions.\n\nRather than interrupt the Golden Thread with detailed discussion, I have brought my principal observations together in a separate work entitled:\nOUR LADY AND OUR SALVATION\n\nIn that booklet I explain, step by step, how I came to my understanding of the relationship between the messages of Paris, Lourdes and Fatima, and why I believe they should be reconsidered.\n\nYou may agree with my conclusions.\nYou may disagree with my conclusions.\n\nMy hope is that you examine the evidence carefully, reflect, and decide for yourself.\n\nA copy of Our Lady and Our Salvation is available on request onsite.",
+};
 
 const defaultContent = {
   // Page 1 - ABOUT THIS SITE
@@ -207,13 +178,7 @@ const defaultContent = {
   "page5-content-4": "My job is to be faithful because of them.",
 
   // Page 5 - THE GOLDEN THREAD
-  "page4-page-title": "THE GOLDEN THREAD",
-  ...Object.fromEntries(
-    goldenThreadSections.flatMap((section) => [
-      [`page4-heading-${section.id}`, section.heading],
-      [`page4-content-${section.id}`, section.content],
-    ]),
-  ),
+  ...goldenThreadDefaultContent,
 
   // Page 6 - OBSERVATIONS TO PONDER
   "page6-content-0":
@@ -412,10 +377,10 @@ export default function Home() {
 
 
                 ${getContent("page4-page-title")}
-                ${goldenThreadSections
+                ${Array.from({ length: 10 }, (_, index) => index)
                   .map(
-                    (section) =>
-                      `${getContent(`page4-heading-${section.id}`)}\n${stripHtmlTags(getContent(`page4-content-${section.id}`))}`,
+                    (index) =>
+                      `${getContent(`page4-heading-${index}`)}\n${stripHtmlTags(getContent(`page4-content-${index}`))}`,
                   )
                   .join("\n\n")}
 
@@ -753,15 +718,15 @@ export default function Home() {
             />
           </h2>
 
-          {goldenThreadSections.map((section) => (
-            <div key={section.id} className="space-y-3 mb-40">
+          {Array.from({ length: 10 }, (_, index) => index).map((index) => (
+            <div key={index} className="space-y-3 mb-40">
               <h3 className="text-xl font-semibold uppercase tracking-[0.15em] text-center mb-10">
                 <ControlledEditable
                   isEditable={isEditable}
-                  content={getContent(`page4-heading-${section.id}`)}
-                  identifier={`page4-heading-${section.id}`}
+                  content={getContent(`page4-heading-${index}`)}
+                  identifier={`page4-heading-${index}`}
                   onContentChange={(content) =>
-                    handleContentChange(`page4-heading-${section.id}`, content)
+                    handleContentChange(`page4-heading-${index}`, content)
                   }
                   className="text-xl font-semibold uppercase tracking-[0.15em] text-center"
                 />
@@ -769,12 +734,12 @@ export default function Home() {
 
               <ControlledEditable
                 isEditable={isEditable}
-                content={getContent(`page4-content-${section.id}`)}
-                identifier={`page4-content-${section.id}`}
+                content={getContent(`page4-content-${index}`)}
+                identifier={`page4-content-${index}`}
                 onContentChange={(content) =>
-                  updatePageContent(4, section.id, content)
+                  updatePageContent(4, index, content)
                 }
-                className="text-lg leading-8 text-left"
+                className="text-lg leading-8 text-left whitespace-pre-line"
               />
             </div>
           ))}
