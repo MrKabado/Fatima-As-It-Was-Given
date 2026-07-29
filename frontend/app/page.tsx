@@ -330,7 +330,7 @@ const pageLabelsByOrder = [
   { id: 2, label: "ABOUT THE DANGER" },
   { id: 3, label: "ABOUT THE REMEDY" },
   { id: 4, label: "ABOUT THE RESPONSIBILITY" },
-  { id: 5, label: "THE GOLDEN THREAD" },
+  // { id: 5, label: "THE GOLDEN THREAD" },
   { id: 6, label: "OBSERVATIONS TO PONDER" },
   { id: 7, label: "BOOKS" },
   { id: 8, label: "CONTACT DETAILS" },
