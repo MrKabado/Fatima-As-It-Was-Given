@@ -31,6 +31,14 @@ app.use(
   })
 );
 
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ 
+    message: "API is healthy",
+    status: "ok",
+    timestamp: new Date().toISOString()
+  })
+})
+
 
 // @Default Endpoint
 app.use('/api/auth', authRoute)

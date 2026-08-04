@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
+import HealthCheck from "@/components/common/HealthCheck";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,11 +31,17 @@ export const metadata: Metadata = {
   },
 };
 
+const apiUrl = process.env.NODE_ENV === "production"
+  ? process.env.NEXT_BACKEND_URL_PROD
+  : process.env.NEXT_BACKEND_URL_LOCAL;
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en">
       <head>
@@ -43,7 +50,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Toaster position="top-right" />
+        <HealthCheck />
+        <Toaster position="top-right" richColors/>
         {children}
       </body>
     </html>
