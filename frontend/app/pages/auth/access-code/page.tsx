@@ -306,7 +306,7 @@ export default function AccessCode() {
                 </span>
               </label>
 
-              <button
+              {/* <button
                 onClick={handleResendClick}
                 className="cursor-pointer font-semibold text-sm text-black hover:underline"
               >
@@ -319,7 +319,7 @@ export default function AccessCode() {
                     className="font-semibold text-sm"
                   />
                 </span>
-              </button>
+              </button> */}
             </div>
 
             <input

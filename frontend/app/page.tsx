@@ -261,7 +261,10 @@ const pageLabelsByOrder = [
   { id: 8, label: "CONTACT DETAILS" },
 ];
 
-const navigationItems = pageLabelsByOrder.map(({ id, label }) => ({ id, label }));
+const navigationItems = pageLabelsByOrder.map(({ id, label }) => ({
+  id,
+  label,
+}));
 
 const books = [
   {
@@ -522,25 +525,57 @@ export default function Home() {
         </div>
 
         {isAutheticated && (
-          <div
-            className="fixed bottom-30 right-16 shadow-sm border bg-white border-gray-300 rounded-full p-3 z-50 cursor-pointer"
-            title={isEditable ? "Save and Exit Edit Mode" : "Enter Edit Mode"}
+          <button
             onClick={handleToggleEdit}
+            title={isEditable ? "Save and Exit Edit Mode" : "Enter Edit Mode"}
+            className="
+      fixed bottom-32 right-8 z-50
+      flex items-center gap-2
+      px-4 py-2
+      bg-white
+      border border-gray-200
+      rounded-full
+      shadow-sm
+      hover:shadow-md
+      hover:bg-gray-50
+      active:scale-95
+      transition-all duration-200
+      cursor-pointer
+    "
           >
             {isEditable ? (
-              <Save className="w-8 h-8 text-black-600 hover:text-black-800" />
+              <Save className="w-5 h-5 text-gray-700" />
             ) : (
-              <Pencil className="w-8 h-8 text-black hover:text-gray-600" />
+              <Pencil className="w-5 h-5 text-gray-700" />
             )}
-          </div>
+
+            <span className="text-sm font-medium text-gray-800">
+              {isEditable ? "Save" : "Edit"}
+            </span>
+          </button>
         )}
 
         {isAutheticated && (
           <button
             onClick={handleLogout}
-            className="fixed right-16 bottom-50 shadow-sm border bg-white border-gray-300 rounded-full p-3 z-50 cursor-pointer"
+            className="
+      fixed bottom-16 right-8 z-50
+      flex items-center gap-2
+      px-4 py-2
+      bg-white
+      border border-gray-200
+      rounded-full
+      shadow-sm
+      hover:shadow-md
+      hover:bg-gray-50
+      active:scale-95
+      transition-all duration-200
+      cursor-pointer
+    "
           >
-            <IoIosLogOut className="text-black w-8 h-8 bold" />
+            <IoIosLogOut className="w-5 h-5 text-gray-700" />
+
+            <span className="text-sm font-medium text-gray-800">Logout</span>
           </button>
         )}
 
