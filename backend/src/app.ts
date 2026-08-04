@@ -17,19 +17,36 @@ app.use(errorHandler)
 app.use(morgan('dev'))
 app.use(cookieParser())
 
+const allowedOrigins = [
+  /^http:\/\/localhost:(3000|3001)$/, 
+  /^https:\/\/fatima-a-call-to-salvation\.vercel\.app$/,
+  /^https:\/\/.*\.vercel\.app$/,
+  /^https:\/\/fatimacalltosalvation\.com$/,
+  /^https:\/\/www\.fatimacalltosalvation\.com$/,
+]
+
 app.use(
   cors({
-    origin:
-      process.env.NODE_ENV === "production"
-        ? [
-            "https://fatima-a-call-to-salvation.vercel.app",
-            "https://fatimacalltosalvation.com",
-            "https://www.fatimacalltosalvation.com",
-          ]
-        : ["http://localhost:3000"],
+    origin: (origin, callback) => {
+      if (!origin) {
+        callback(null, true)
+        return
+      }
+
+      const isAllowed = allowedOrigins.some((pattern) => pattern.test(origin))
+
+      if (isAllowed) {
+        callback(null, true)
+        return
+      }
+
+      callback(null, false)
+    },
     credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
   })
-);
+)
 
 app.get('/api/health', (req, res) => {
   res.status(200).json({ 

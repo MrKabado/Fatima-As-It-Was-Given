@@ -23,7 +23,7 @@ export const requestAccess = async (req: Request, res: Response) => {
 
         console.log(isAccessCodeValid);
 
-        generateJwt(isAccessCodeValid, res);
+        generateJwt(isAccessCodeValid, req, res);
 
         return res.status(200).json({ message: "Access code granted." });
 
@@ -72,10 +72,12 @@ export const requestNewAccessCode = async (req: Request, res: Response) => {
 }
 
 export const logoutAccess = (req: Request, res: Response) => {
+    const isSecureRequest = req.secure || req.headers['x-forwarded-proto'] === 'https'
+
     res.clearCookie('jwt', {
         httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+        secure: isSecureRequest,
+        sameSite: isSecureRequest ? 'none' : 'lax',
     });
     return res.status(200).json({ message: "Logged out successfully." });
 }
