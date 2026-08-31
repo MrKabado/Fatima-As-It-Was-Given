@@ -17,7 +17,7 @@ export const generateJwt = (payload: IPayload, req: Request, res: Response) => {
         const isSecureRequest = req.secure || req.headers['x-forwarded-proto'] === 'https'
 
         res.cookie('jwt', token, {
-            httpOnly: true,
+            httpOnly: isSecureRequest ? true : false
             secure: isSecureRequest,
             sameSite: isSecureRequest ? 'none' : 'lax',
             maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
