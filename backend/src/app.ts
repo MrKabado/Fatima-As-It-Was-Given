@@ -19,6 +19,7 @@ app.use(cookieParser())
 const allowedOrigins = [
   /^http:\/\/localhost:(3000|3001)$/, 
   /^https:\/\/fatima-a-call-to-salvation\.vercel\.app$/,
+  /^https:\/\/fatima-a-call-to-salvation-site\.vercel\.app$/,
   /^https:\/\/.*\.vercel\.app$/,
   /^https:\/\/fatimacalltosalvation\.com$/,
   /^https:\/\/www\.fatimacalltosalvation\.com$/,
